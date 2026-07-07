@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Sale Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span class="brand-mini"><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg> Home Sale Admin</span>
+      <a class="btn btn-outline btn-sm" href="index.html" target="_blank" rel="noopener">View site <svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg></a>
+    </div>
+  </div>
+
+  <main class="container admin-wrap">
+    <div class="admin-header">
+      <h1>Home Sale Admin</h1>
+    </div>
+    <div class="instruction-box">
+      <strong>How this works:</strong> This admin editor works locally. After editing, export
+      <code>items.json</code> and replace <code>data/items.json</code> in the project before publishing.
+      No login, no server, nothing is saved online.
+    </div>
+
+    <div class="readiness-panel panel panel-compact" id="readinessPanel">
+      <div class="readiness-head">
+        <h2>Real-data readiness</h2>
+        <button type="button" class="btn btn-outline btn-sm" id="btnHideWarnings">Hide sample warnings for this session</button>
+      </div>
+      <div class="readiness-grid" id="readinessGrid"></div>
+      <p class="hint readiness-note">This static admin validates image path format only — it cannot verify every file exists on disk. After exporting <code>items.json</code>, open the public catalog and product pages locally to confirm all images load.</p>
+    </div>
+
+    <div class="panel panel-compact replacement-workflow">
+      <h2>Recommended replacement workflow</h2>
+      <ol class="workflow-steps">
+        <li>Duplicate a sample product close to your item category.</li>
+        <li>Change title, price, status, condition, description, and specs.</li>
+        <li>Replace image paths with real image paths.</li>
+        <li>Set featured only for important items.</li>
+        <li>Export <code>items.json</code>.</li>
+        <li>Replace <code>data/items.json</code> in the project.</li>
+      </ol>
+      <p class="hint">Worksheet: <code>PRODUCT-DATA-TEMPLATE.md</code> · Photos: <code>IMAGE-GUIDE.md</code></p>
+    </div>
+
+    <div class="publish-checklist panel panel-compact">
+      <h2>Before publishing</h2>
+      <ul class="checklist">
+        <li>Real photos copied into <code>images/</code> folders</li>
+        <li>Image filenames lowercase with hyphens</li>
+        <li>Product image paths updated</li>
+        <li>Broken images checked on catalog and product pages</li>
+        <li><code>items.json</code> exported from admin</li>
+        <li><code>data/items.json</code> replaced in the project</li>
+      </ul>
+      <p class="hint">Full guide: <code>IMAGE-GUIDE.md</code></p>
+    </div>
+
+    <div class="admin-warnings hidden" id="adminWarnings" role="status"></div>
+
+    <div class="status-message" id="statusMsg"></div>
+
+    <!-- Site meta settings -->
+    <div class="panel">
+      <h2>Site settings</h2>
+      <p class="hint meta-hint">
+        WhatsApp number, pickup note, and currency come from <code>data/items.json</code> under
+        <code>meta</code>. Edit here, then export and replace <code>data/items.json</code> before publishing.
+        Product image paths must match files inside <code>images/&lt;category&gt;/</code> folders.
+        After exporting, open the catalog and product pages locally to confirm all images load.
+      </p>
+      <div class="form-grid">
+        <div class="field">
+          <label for="meta_whatsapp">WhatsApp number</label>
+          <input type="text" id="meta_whatsapp" placeholder="971500000000" autocomplete="off" />
+          <p class="hint">International format, country code first, no + or spaces (e.g. 923001234567).</p>
+          <p class="hint admin-inline-warn hidden" id="whatsappWarning">WhatsApp number is still placeholder. Replace it with your Pakistan WhatsApp number before publishing (e.g. 923001234567).</p>
+        </div>
+        <div class="field">
+          <label for="meta_currency">Currency</label>
+          <input type="text" id="meta_currency" placeholder="Rs." maxlength="8" autocomplete="off" />
+          <p class="hint">Allowed: Rs., PKR, AED, USD. Default for this project: Rs.</p>
+        </div>
+        <div class="field full">
+          <label for="meta_pickupNote">Pickup note</label>
+          <textarea id="meta_pickupNote" rows="2" placeholder="Pickup from Karachi. Exact location shared after confirmation."></textarea>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-sm" id="btnSaveMeta">Save site settings</button>
+    </div>
+
+    <!-- Data actions -->
+    <div class="panel">
+      <h2>Data</h2>
+      <div class="toolbar">
+        <button class="btn btn-primary btn-sm" id="btnAdd"><svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg> Add new product</button>
+        <button class="btn btn-accent btn-sm" id="btnExport"><svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg> Export items.json</button>
+        <button class="btn btn-outline btn-sm" id="btnImport"><svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5"/><path d="M12 3v12"/></svg> Import JSON</button>
+        <button class="btn btn-outline btn-sm" id="btnReset"><svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10"/><path d="M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg> Reset changes</button>
+        <input type="file" id="fileInput" accept="application/json,.json" hidden />
+      </div>
+      <p class="hint" id="draftHint"></p>
+    </div>
+
+    <!-- Filters -->
+    <div class="panel">
+      <h2>Products</h2>
+      <div class="toolbar">
+        <input type="search" class="grow" id="adminSearch" placeholder="Search products..." autocomplete="off" />
+        <select id="adminCategory"><option value="All">All categories</option></select>
+        <select id="adminStatus">
+          <option value="All">All statuses</option>
+          <option value="Available">Available</option>
+          <option value="Reserved">Reserved</option>
+          <option value="Sold">Sold</option>
+        </select>
+      </div>
+      <div class="table-scroll">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Title / ID</th>
+              <th>Category</th>
+              <th>Price (Rs.)</th>
+              <th>Status</th>
+              <th>Featured</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="adminTableBody">
+            <tr><td colspan="7">Loading...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <!-- Edit / Add modal -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal">
+      <div class="modal-head">
+        <h2 id="modalTitle">Edit product</h2>
+        <button class="link-btn" id="modalClose">Close <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      </div>
+      <form id="productForm">
+        <div class="form-grid">
+          <div class="field">
+            <label>ID <span class="req">*</span></label>
+            <input type="text" id="f_id" placeholder="e.g. sofa-set" />
+            <p class="hint">Lowercase, no spaces. Used in the product URL.</p>
+          </div>
+          <div class="field">
+            <label>Title <span class="req">*</span></label>
+            <input type="text" id="f_title" placeholder="e.g. 3-Seater Sofa" />
+          </div>
+          <div class="field">
+            <label>Category <span class="req">*</span></label>
+            <select id="f_category">
+              <option>Furniture</option>
+              <option>Electronics</option>
+              <option>Appliances</option>
+              <option>Kitchen</option>
+              <option>Kids</option>
+              <option>Decor</option>
+              <option>Other</option>
+            </select>
+            <p class="hint">Choose the folder category for images and similar-item grouping.</p>
+          </div>
+          <div class="field">
+            <label>Price (Rs.) <span class="req">*</span></label>
+            <input type="number" id="f_price" min="0" step="1" placeholder="45000" />
+            <p class="hint">Enter number only. The site will display Rs. automatically.</p>
+          </div>
+          <div class="field">
+            <label>Status <span class="req">*</span></label>
+            <select id="f_status">
+              <option>Available</option>
+              <option>Reserved</option>
+              <option>Sold</option>
+            </select>
+            <p class="hint">Available items can receive WhatsApp inquiries. Sold closes inquiries.</p>
+          </div>
+          <div class="field">
+            <label>Condition</label>
+            <input type="text" id="f_condition" placeholder="e.g. Very good - light use" />
+          </div>
+          <div class="field">
+            <label>Featured</label>
+            <label class="checkbox-line">
+              <input type="checkbox" id="f_featured" />
+              <span>Show this product first on the homepage</span>
+            </label>
+          </div>
+          <div class="field full">
+            <label>Description</label>
+            <textarea id="f_description" placeholder="Describe the item..."></textarea>
+          </div>
+
+          <div class="field full">
+            <label>Images (paths)</label>
+            <p class="hint img-helper-top">After copying real photos into the images folder, add the matching path here.</p>
+            <div class="images-editor" id="imagesEditor"></div>
+            <button type="button" class="link-btn" id="addImageBtn"><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg> Add image path</button>
+            <div class="helper-note">
+              <p><strong>Image path format</strong></p>
+              <p class="mono">images/furniture/sofa-003-beige-tufted-01.webp<br>images/furniture/sofa-003-beige-tufted-02.webp</p>
+              <ul>
+                <li>Use lowercase file names.</li>
+                <li>Use hyphens instead of spaces.</li>
+                <li>Place images inside the correct category folder.</li>
+                <li>Add one image path per row — preview updates as you type.</li>
+                <li>See <code>IMAGE-GUIDE.md</code> for full workflow.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="field full">
+            <label>Specifications</label>
+            <p class="hint">Add at least one spec buyers care about. See <code>PRODUCT-DATA-TEMPLATE.md</code> for category examples.</p>
+            <div class="specs-editor" id="specsEditor"></div>
+            <button type="button" class="link-btn" id="addSpecBtn"><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg> Add spec</button>
+          </div>
+        </div>
+
+        <div class="product-cta">
+          <button type="submit" class="btn btn-primary btn-lg">Save product</button>
+          <button type="button" class="btn btn-outline btn-lg" id="modalCancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="icons.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

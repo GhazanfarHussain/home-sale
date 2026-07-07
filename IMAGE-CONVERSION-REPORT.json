@@ -1,0 +1,672 @@
+{
+  "tool": "Python Pillow",
+  "quality": 80,
+  "max_width": 1600,
+  "started": "2026-07-07T22:21:37.869754+00:00",
+  "source_images_found": 85,
+  "converted": 85,
+  "skipped": 0,
+  "failed": [],
+  "backup_copies": 85,
+  "originals_moved": 85,
+  "filename_conflicts": [
+    "decorative-vase-set-001-white-floral-01 (2).jpg -> decorative-vase-set-001-white-floral-02.webp",
+    "serving-dish-set-001-white-gold-01 (2).jpg -> serving-dish-set-001-white-gold-02.webp",
+    "serving-dish-set-001-white-gold-01 (3).jpg -> serving-dish-set-001-white-gold-03.webp",
+    "images/decor/light-tree-001-flower-branch-01.webp existed; moved furniture copy in as -02"
+  ],
+  "misplaced_moves": [
+    "images/furniture/islamic-wall-art-001-allah-names-01.webp -> images/decor/ (category -> Decor)",
+    "images/furniture/islamic-wall-art-002-allah-rasool-muhammad-01.webp -> images/decor/ (category -> Decor)",
+    "images/furniture/light-tree-001-flower-branch-01.webp -> images/decor/light-tree-001-flower-branch-02.webp (merged into Decor light-tree product; duplicate Furniture entry removed)"
+  ],
+  "conversions": [
+    {
+      "from": "images/appliances/refrigerator-001-hitachi-black-side-by-side-01.jpg",
+      "to": "images/appliances/refrigerator-001-hitachi-black-side-by-side-01.webp",
+      "width": 625,
+      "height": 1280,
+      "bytes": 38528
+    },
+    {
+      "from": "images/decor/artificial-plant-001-green-lighted-pot-01.jpg",
+      "to": "images/decor/artificial-plant-001-green-lighted-pot-01.webp",
+      "width": 624,
+      "height": 1280,
+      "bytes": 80348
+    },
+    {
+      "from": "images/decor/artificial-plant-001-green-lighted-pot-02.jpg",
+      "to": "images/decor/artificial-plant-001-green-lighted-pot-02.webp",
+      "width": 642,
+      "height": 1280,
+      "bytes": 86144
+    },
+    {
+      "from": "images/decor/candle-holder-001-gold-glass-three-cup-01.jpg",
+      "to": "images/decor/candle-holder-001-gold-glass-three-cup-01.webp",
+      "width": 1199,
+      "height": 1280,
+      "bytes": 168302
+    },
+    {
+      "from": "images/decor/candle-holder-set-002-gold-crystal-tall-01.jpg",
+      "to": "images/decor/candle-holder-set-002-gold-crystal-tall-01.webp",
+      "width": 682,
+      "height": 1280,
+      "bytes": 114840
+    },
+    {
+      "from": "images/decor/candle-holder-set-002-gold-crystal-tall-02.jpg",
+      "to": "images/decor/candle-holder-set-002-gold-crystal-tall-02.webp",
+      "width": 641,
+      "height": 1280,
+      "bytes": 102336
+    },
+    {
+      "from": "images/decor/candle-holder-set-003-crystal-lotus-lantern-01.jpg",
+      "to": "images/decor/candle-holder-set-003-crystal-lotus-lantern-01.webp",
+      "width": 859,
+      "height": 1280,
+      "bytes": 94836
+    },
+    {
+      "from": "images/decor/candle-holder-set-003-crystal-lotus-lantern-02.jpg",
+      "to": "images/decor/candle-holder-set-003-crystal-lotus-lantern-02.webp",
+      "width": 813,
+      "height": 1280,
+      "bytes": 100740
+    },
+    {
+      "from": "images/decor/crystal-vase-001-clear-tall-01.jpg",
+      "to": "images/decor/crystal-vase-001-clear-tall-01.webp",
+      "width": 706,
+      "height": 1280,
+      "bytes": 92556
+    },
+    {
+      "from": "images/decor/decor-bowl-001-gold-crystal-01.jpg",
+      "to": "images/decor/decor-bowl-001-gold-crystal-01.webp",
+      "width": 1148,
+      "height": 849,
+      "bytes": 114960
+    },
+    {
+      "from": "images/decor/decor-piece-002-glass-sculptures-01.jpg",
+      "to": "images/decor/decor-piece-002-glass-sculptures-01.webp",
+      "width": 751,
+      "height": 1280,
+      "bytes": 94132
+    },
+    {
+      "from": "images/decor/decor-piece-002-glass-sculptures-02.jpg",
+      "to": "images/decor/decor-piece-002-glass-sculptures-02.webp",
+      "width": 805,
+      "height": 1280,
+      "bytes": 79516
+    },
+    {
+      "from": "images/decor/decor-shelf-001-black-wall-display-01.jpg",
+      "to": "images/decor/decor-shelf-001-black-wall-display-01.webp",
+      "width": 1102,
+      "height": 934,
+      "bytes": 50570
+    },
+    {
+      "from": "images/decor/decor-stand-001-gold-pillar-01.jpg",
+      "to": "images/decor/decor-stand-001-gold-pillar-01.webp",
+      "width": 597,
+      "height": 1280,
+      "bytes": 97536
+    },
+    {
+      "from": "images/decor/decorative-vase-set-001-white-floral-01 (2).jpg",
+      "to": "images/decor/decorative-vase-set-001-white-floral-01.webp",
+      "width": 597,
+      "height": 1280,
+      "bytes": 51034
+    },
+    {
+      "from": "images/decor/decorative-vase-set-001-white-floral-01.jpg",
+      "to": "images/decor/decorative-vase-set-001-white-floral-02.webp",
+      "width": 597,
+      "height": 1280,
+      "bytes": 80336
+    },
+    {
+      "from": "images/decor/kids-curtain-001-blue-cars-01.jpg",
+      "to": "images/decor/kids-curtain-001-blue-cars-01.webp",
+      "width": 1600,
+      "height": 1304,
+      "bytes": 286394
+    },
+    {
+      "from": "images/decor/lamp-set-001-wire-cage-bulb-01.jpg",
+      "to": "images/decor/lamp-set-001-wire-cage-bulb-01.webp",
+      "width": 934,
+      "height": 1196,
+      "bytes": 221116
+    },
+    {
+      "from": "images/decor/light-tree-001-flower-branch-02.jpg",
+      "to": "images/decor/light-tree-001-flower-branch-01.webp",
+      "width": 597,
+      "height": 1280,
+      "bytes": 83734
+    },
+    {
+      "from": "images/decor/metal-wall-art-001-leaves-birds-01.jpg",
+      "to": "images/decor/metal-wall-art-001-leaves-birds-01.webp",
+      "width": 587,
+      "height": 1280,
+      "bytes": 49722
+    },
+    {
+      "from": "images/decor/mirror-set-001-gold-moroccan-01.jpg",
+      "to": "images/decor/mirror-set-001-gold-moroccan-01.webp",
+      "width": 1200,
+      "height": 1280,
+      "bytes": 183228
+    },
+    {
+      "from": "images/decor/vase-set-001-red-white-glass-01.jpg",
+      "to": "images/decor/vase-set-001-red-white-glass-01.webp",
+      "width": 672,
+      "height": 1280,
+      "bytes": 73000
+    },
+    {
+      "from": "images/decor/vase-set-002-blue-red-glass-01.jpg",
+      "to": "images/decor/vase-set-002-blue-red-glass-01.webp",
+      "width": 860,
+      "height": 1280,
+      "bytes": 26120
+    },
+    {
+      "from": "images/decor/wall-art-003-traditional-decor-01.jpg",
+      "to": "images/decor/wall-art-003-traditional-decor-01.webp",
+      "width": 746,
+      "height": 1280,
+      "bytes": 128746
+    },
+    {
+      "from": "images/decor/wall-art-004-floral-triptych-01.jpg",
+      "to": "images/decor/wall-art-004-floral-triptych-01.webp",
+      "width": 1280,
+      "height": 798,
+      "bytes": 199056
+    },
+    {
+      "from": "images/decor/wall-art-005-vase-canvas-01.jpg",
+      "to": "images/decor/wall-art-005-vase-canvas-01.webp",
+      "width": 1280,
+      "height": 1275,
+      "bytes": 254578
+    },
+    {
+      "from": "images/decor/wall-art-006-traditional-doorway-01.jpg",
+      "to": "images/decor/wall-art-006-traditional-doorway-01.webp",
+      "width": 776,
+      "height": 1280,
+      "bytes": 163094
+    },
+    {
+      "from": "images/decor/wall-art-set-001-clock-calligraphy-01.jpg",
+      "to": "images/decor/wall-art-set-001-clock-calligraphy-01.webp",
+      "width": 934,
+      "height": 1247,
+      "bytes": 76218
+    },
+    {
+      "from": "images/decor/wall-art-set-002-framed-calligraphy-01.jpg",
+      "to": "images/decor/wall-art-set-002-framed-calligraphy-01.webp",
+      "width": 1280,
+      "height": 1039,
+      "bytes": 75822
+    },
+    {
+      "from": "images/decor/wall-mirror-001-white-frame-01.jpg",
+      "to": "images/decor/wall-mirror-001-white-frame-01.webp",
+      "width": 597,
+      "height": 1280,
+      "bytes": 64908
+    },
+    {
+      "from": "images/furniture/bed-set-001-white-silver-01.jpg",
+      "to": "images/furniture/bed-set-001-white-silver-01.webp",
+      "width": 1280,
+      "height": 621,
+      "bytes": 122104
+    },
+    {
+      "from": "images/furniture/bed-set-001-white-silver-02.jpg",
+      "to": "images/furniture/bed-set-001-white-silver-02.webp",
+      "width": 1280,
+      "height": 617,
+      "bytes": 126308
+    },
+    {
+      "from": "images/furniture/bed-set-001-white-silver-03.jpg",
+      "to": "images/furniture/bed-set-001-white-silver-03.webp",
+      "width": 1280,
+      "height": 652,
+      "bytes": 167080
+    },
+    {
+      "from": "images/furniture/bed-set-002-black-headboard-01.jpg",
+      "to": "images/furniture/bed-set-002-black-headboard-01.webp",
+      "width": 1600,
+      "height": 858,
+      "bytes": 81294
+    },
+    {
+      "from": "images/furniture/bed-set-002-black-headboard-02.jpg",
+      "to": "images/furniture/bed-set-002-black-headboard-02.webp",
+      "width": 934,
+      "height": 1403,
+      "bytes": 92686
+    },
+    {
+      "from": "images/furniture/bed-set-002-black-headboard-03.jpg",
+      "to": "images/furniture/bed-set-002-black-headboard-03.webp",
+      "width": 1600,
+      "height": 904,
+      "bytes": 94484
+    },
+    {
+      "from": "images/furniture/center-table-001-round-gold-glass-01.jpg",
+      "to": "images/furniture/center-table-001-round-gold-glass-01.webp",
+      "width": 1280,
+      "height": 930,
+      "bytes": 119906
+    },
+    {
+      "from": "images/furniture/center-table-001-round-gold-glass-02.jpg",
+      "to": "images/furniture/center-table-001-round-gold-glass-02.webp",
+      "width": 1280,
+      "height": 1249,
+      "bytes": 201020
+    },
+    {
+      "from": "images/furniture/center-table-001-round-gold-glass-03.jpg",
+      "to": "images/furniture/center-table-001-round-gold-glass-03.webp",
+      "width": 1280,
+      "height": 856,
+      "bytes": 193294
+    },
+    {
+      "from": "images/furniture/daybed-001-beige-tufted-01.jpg",
+      "to": "images/furniture/daybed-001-beige-tufted-01.webp",
+      "width": 1280,
+      "height": 771,
+      "bytes": 29006
+    },
+    {
+      "from": "images/furniture/daybed-001-beige-tufted-02.jpg",
+      "to": "images/furniture/daybed-001-beige-tufted-02.webp",
+      "width": 1280,
+      "height": 651,
+      "bytes": 27116
+    },
+    {
+      "from": "images/furniture/dining-table-001-glass-beige-chairs-01.jpg",
+      "to": "images/furniture/dining-table-001-glass-beige-chairs-01.webp",
+      "width": 1280,
+      "height": 705,
+      "bytes": 67540
+    },
+    {
+      "from": "images/furniture/dining-table-001-glass-beige-chairs-02.jpg",
+      "to": "images/furniture/dining-table-001-glass-beige-chairs-02.webp",
+      "width": 1280,
+      "height": 573,
+      "bytes": 60068
+    },
+    {
+      "from": "images/furniture/dining-table-001-glass-beige-chairs-03.jpg",
+      "to": "images/furniture/dining-table-001-glass-beige-chairs-03.webp",
+      "width": 1280,
+      "height": 627,
+      "bytes": 62908
+    },
+    {
+      "from": "images/furniture/dining-table-001-glass-beige-chairs-04.jpg",
+      "to": "images/furniture/dining-table-001-glass-beige-chairs-04.webp",
+      "width": 1280,
+      "height": 597,
+      "bytes": 68578
+    },
+    {
+      "from": "images/furniture/dining-table-001-glass-beige-chairs-05.jpg",
+      "to": "images/furniture/dining-table-001-glass-beige-chairs-05.webp",
+      "width": 1280,
+      "height": 597,
+      "bytes": 66108
+    },
+    {
+      "from": "images/furniture/dining-table-001-glass-beige-chairs-06.jpg",
+      "to": "images/furniture/dining-table-001-glass-beige-chairs-06.webp",
+      "width": 1280,
+      "height": 641,
+      "bytes": 52068
+    },
+    {
+      "from": "images/furniture/dining-table-001-glass-beige-chairs-07.jpg",
+      "to": "images/furniture/dining-table-001-glass-beige-chairs-07.webp",
+      "width": 1280,
+      "height": 723,
+      "bytes": 63386
+    },
+    {
+      "from": "images/furniture/islamic-wall-art-001-allah-names-01.jpg",
+      "to": "images/furniture/islamic-wall-art-001-allah-names-01.webp",
+      "width": 1175,
+      "height": 832,
+      "bytes": 137346
+    },
+    {
+      "from": "images/furniture/islamic-wall-art-002-allah-rasool-muhammad-01.jpg",
+      "to": "images/furniture/islamic-wall-art-002-allah-rasool-muhammad-01.webp",
+      "width": 852,
+      "height": 1047,
+      "bytes": 162910
+    },
+    {
+      "from": "images/furniture/light-tree-001-flower-branch-01.jpg",
+      "to": "images/furniture/light-tree-001-flower-branch-01.webp",
+      "width": 610,
+      "height": 1280,
+      "bytes": 77296
+    },
+    {
+      "from": "images/furniture/pouffe-set-001-beige-gold-01.jpg",
+      "to": "images/furniture/pouffe-set-001-beige-gold-01.webp",
+      "width": 1280,
+      "height": 847,
+      "bytes": 82310
+    },
+    {
+      "from": "images/furniture/pouffe-set-001-beige-gold-02.jpg",
+      "to": "images/furniture/pouffe-set-001-beige-gold-02.webp",
+      "width": 1143,
+      "height": 781,
+      "bytes": 71596
+    },
+    {
+      "from": "images/furniture/recliner-chair-001-brown-leather-01.jpg",
+      "to": "images/furniture/recliner-chair-001-brown-leather-01.webp",
+      "width": 1157,
+      "height": 1600,
+      "bytes": 73680
+    },
+    {
+      "from": "images/furniture/recliner-chair-001-brown-leather-02.jpg",
+      "to": "images/furniture/recliner-chair-001-brown-leather-02.webp",
+      "width": 934,
+      "height": 1415,
+      "bytes": 63366
+    },
+    {
+      "from": "images/furniture/side-table-001-gold-glass-lamp-01.jpg",
+      "to": "images/furniture/side-table-001-gold-glass-lamp-01.webp",
+      "width": 706,
+      "height": 1280,
+      "bytes": 92556
+    },
+    {
+      "from": "images/furniture/side-table-001-gold-glass-lamp-02.jpg",
+      "to": "images/furniture/side-table-001-gold-glass-lamp-02.webp",
+      "width": 751,
+      "height": 1280,
+      "bytes": 94132
+    },
+    {
+      "from": "images/furniture/side-table-001-gold-glass-lamp-03.jpg",
+      "to": "images/furniture/side-table-001-gold-glass-lamp-03.webp",
+      "width": 536,
+      "height": 1280,
+      "bytes": 62802
+    },
+    {
+      "from": "images/furniture/side-table-001-gold-glass-lamp-04.jpg",
+      "to": "images/furniture/side-table-001-gold-glass-lamp-04.webp",
+      "width": 556,
+      "height": 1280,
+      "bytes": 78178
+    },
+    {
+      "from": "images/furniture/sofa-003-beige-tufted-01.jpg",
+      "to": "images/furniture/sofa-003-beige-tufted-01.webp",
+      "width": 1280,
+      "height": 570,
+      "bytes": 68686
+    },
+    {
+      "from": "images/furniture/sofa-003-beige-tufted-02.jpg",
+      "to": "images/furniture/sofa-003-beige-tufted-02.webp",
+      "width": 1280,
+      "height": 597,
+      "bytes": 52358
+    },
+    {
+      "from": "images/furniture/sofa-003-beige-tufted-03.jpg",
+      "to": "images/furniture/sofa-003-beige-tufted-03.webp",
+      "width": 1280,
+      "height": 433,
+      "bytes": 56242
+    },
+    {
+      "from": "images/furniture/sofa-003-beige-tufted-04.jpg",
+      "to": "images/furniture/sofa-003-beige-tufted-04.webp",
+      "width": 1280,
+      "height": 534,
+      "bytes": 53656
+    },
+    {
+      "from": "images/furniture/sofa-chair-002-blue-round-01.jpg",
+      "to": "images/furniture/sofa-chair-002-blue-round-01.webp",
+      "width": 747,
+      "height": 1600,
+      "bytes": 43856
+    },
+    {
+      "from": "images/furniture/sofa-chair-002-blue-round-02.jpg",
+      "to": "images/furniture/sofa-chair-002-blue-round-02.webp",
+      "width": 597,
+      "height": 1280,
+      "bytes": 32540
+    },
+    {
+      "from": "images/furniture/sofa-chair-set-001-beige-round-01.jpg",
+      "to": "images/furniture/sofa-chair-set-001-beige-round-01.webp",
+      "width": 1280,
+      "height": 583,
+      "bytes": 72916
+    },
+    {
+      "from": "images/furniture/sofa-chair-set-001-beige-round-02.jpg",
+      "to": "images/furniture/sofa-chair-set-001-beige-round-02.webp",
+      "width": 1280,
+      "height": 597,
+      "bytes": 43402
+    },
+    {
+      "from": "images/furniture/sofa-set-004-black-leather-01.jpg",
+      "to": "images/furniture/sofa-set-004-black-leather-01.webp",
+      "width": 1280,
+      "height": 597,
+      "bytes": 74426
+    },
+    {
+      "from": "images/furniture/wardrobe-001-white-kids-stickers-01.jpg",
+      "to": "images/furniture/wardrobe-001-white-kids-stickers-01.webp",
+      "width": 906,
+      "height": 1558,
+      "bytes": 51126
+    },
+    {
+      "from": "images/furniture/wardrobe-001-white-kids-stickers-02.jpg",
+      "to": "images/furniture/wardrobe-001-white-kids-stickers-02.webp",
+      "width": 877,
+      "height": 1493,
+      "bytes": 48720
+    },
+    {
+      "from": "images/kitchen/bowl-spoon-set-001-white-gold-01.jpg",
+      "to": "images/kitchen/bowl-spoon-set-001-white-gold-01.webp",
+      "width": 1280,
+      "height": 677,
+      "bytes": 67414
+    },
+    {
+      "from": "images/kitchen/casserole-warmer-001-black-gold-01.jpg",
+      "to": "images/kitchen/casserole-warmer-001-black-gold-01.webp",
+      "width": 1280,
+      "height": 814,
+      "bytes": 66400
+    },
+    {
+      "from": "images/kitchen/chafing-dish-002-prime-round-white-01.jpg",
+      "to": "images/kitchen/chafing-dish-002-prime-round-white-01.webp",
+      "width": 1280,
+      "height": 1241,
+      "bytes": 126040
+    },
+    {
+      "from": "images/kitchen/dinner-set-001-white-gold-01.jpg",
+      "to": "images/kitchen/dinner-set-001-white-gold-01.webp",
+      "width": 1280,
+      "height": 597,
+      "bytes": 91486
+    },
+    {
+      "from": "images/kitchen/dinner-set-001-white-gold-02.jpg",
+      "to": "images/kitchen/dinner-set-001-white-gold-02.webp",
+      "width": 1280,
+      "height": 678,
+      "bytes": 126998
+    },
+    {
+      "from": "images/kitchen/dinner-set-001-white-gold-03.jpg",
+      "to": "images/kitchen/dinner-set-001-white-gold-03.webp",
+      "width": 1280,
+      "height": 626,
+      "bytes": 108108
+    },
+    {
+      "from": "images/kitchen/food-warmer-001-rectangular-glass-01.jpg",
+      "to": "images/kitchen/food-warmer-001-rectangular-glass-01.webp",
+      "width": 1280,
+      "height": 841,
+      "bytes": 76436
+    },
+    {
+      "from": "images/kitchen/glass-bowl-set-001-clear-serving-01.jpg",
+      "to": "images/kitchen/glass-bowl-set-001-clear-serving-01.webp",
+      "width": 1280,
+      "height": 597,
+      "bytes": 117158
+    },
+    {
+      "from": "images/kitchen/glass-bowl-set-001-clear-serving-02.jpg",
+      "to": "images/kitchen/glass-bowl-set-001-clear-serving-02.webp",
+      "width": 1280,
+      "height": 597,
+      "bytes": 112836
+    },
+    {
+      "from": "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-01.jpg",
+      "to": "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-01.webp",
+      "width": 1280,
+      "height": 926,
+      "bytes": 106112
+    },
+    {
+      "from": "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-02.jpg",
+      "to": "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-02.webp",
+      "width": 1280,
+      "height": 1195,
+      "bytes": 163590
+    },
+    {
+      "from": "images/kitchen/serving-dish-set-001-white-gold-01 (2).jpg",
+      "to": "images/kitchen/serving-dish-set-001-white-gold-01.webp",
+      "width": 1280,
+      "height": 597,
+      "bytes": 111684
+    },
+    {
+      "from": "images/kitchen/serving-dish-set-001-white-gold-01 (3).jpg",
+      "to": "images/kitchen/serving-dish-set-001-white-gold-02.webp",
+      "width": 1280,
+      "height": 885,
+      "bytes": 173350
+    },
+    {
+      "from": "images/kitchen/serving-dish-set-001-white-gold-01.jpg",
+      "to": "images/kitchen/serving-dish-set-001-white-gold-03.webp",
+      "width": 1280,
+      "height": 725,
+      "bytes": 153790
+    },
+    {
+      "from": "images/kitchen/tea-cup-set-001-white-brown-01.jpg",
+      "to": "images/kitchen/tea-cup-set-001-white-brown-01.webp",
+      "width": 1280,
+      "height": 637,
+      "bytes": 110332
+    }
+  ],
+  "folder_counts": {
+    "appliances": {
+      "webp": 1,
+      "svg": 2,
+      "jpg": 0,
+      "jpeg": 0,
+      "png": 0
+    },
+    "decor": {
+      "webp": 32,
+      "svg": 2,
+      "jpg": 0,
+      "jpeg": 0,
+      "png": 0
+    },
+    "electronics": {
+      "webp": 0,
+      "svg": 2,
+      "jpg": 0,
+      "jpeg": 0,
+      "png": 0
+    },
+    "furniture": {
+      "webp": 37,
+      "svg": 5,
+      "jpg": 0,
+      "jpeg": 0,
+      "png": 0
+    },
+    "kids": {
+      "webp": 0,
+      "svg": 2,
+      "jpg": 0,
+      "jpeg": 0,
+      "png": 0
+    },
+    "kitchen": {
+      "webp": 15,
+      "svg": 2,
+      "jpg": 0,
+      "jpeg": 0,
+      "png": 0
+    },
+    "other": {
+      "webp": 0,
+      "svg": 2,
+      "jpg": 0,
+      "jpeg": 0,
+      "png": 0
+    }
+  },
+  "finished": "2026-07-07T22:22:04.996248+00:00"
+}

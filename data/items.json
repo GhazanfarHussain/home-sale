@@ -1,0 +1,879 @@
+{
+  "meta": {
+    "currency": "Rs.",
+    "whatsapp": "923332466776",
+    "pickupNote": "Pickup from Karachi. Exact location shared after confirmation.",
+    "updated": "2026-07-07"
+  },
+  "items": [
+    {
+      "id": "refrigerator-001-hitachi-black-side-by-side",
+      "title": "Hitachi Black Side By Side Refrigerator",
+      "category": "Appliances",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved hitachi black side by side refrigerator available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/appliances/refrigerator-001-hitachi-black-side-by-side-01.webp"
+      ],
+      "specs": {
+        "Brand": "Hitachi",
+        "Condition": "Pre-owned"
+      }
+    },
+    {
+      "id": "artificial-plant-001-green-lighted-pot",
+      "title": "Green Lighted Pot Artificial Plant",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved green lighted pot artificial plant available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/artificial-plant-001-green-lighted-pot-01.webp",
+        "images/decor/artificial-plant-001-green-lighted-pot-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "candle-holder-001-gold-glass-three-cup",
+      "title": "Gold Glass Three Cup Candle Holder",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved gold glass three cup candle holder available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/candle-holder-001-gold-glass-three-cup-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "candle-holder-set-002-gold-crystal-tall",
+      "title": "Gold Crystal Tall Candle Holder Set",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved gold crystal tall candle holder set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/candle-holder-set-002-gold-crystal-tall-01.webp",
+        "images/decor/candle-holder-set-002-gold-crystal-tall-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "candle-holder-set-003-crystal-lotus-lantern",
+      "title": "Crystal Lotus Lantern Candle Holder Set",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved crystal lotus lantern candle holder set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/candle-holder-set-003-crystal-lotus-lantern-01.webp",
+        "images/decor/candle-holder-set-003-crystal-lotus-lantern-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "crystal-vase-001-clear-tall",
+      "title": "Clear Tall Crystal Vase",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved clear tall crystal vase available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/crystal-vase-001-clear-tall-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "decor-bowl-001-gold-crystal",
+      "title": "Gold Crystal Decor Bowl",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved gold crystal decor bowl available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/decor-bowl-001-gold-crystal-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "decor-piece-002-glass-sculptures",
+      "title": "Glass Sculptures Decor Piece",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved glass sculptures decor piece available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/decor-piece-002-glass-sculptures-01.webp",
+        "images/decor/decor-piece-002-glass-sculptures-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "decor-shelf-001-black-wall-display",
+      "title": "Black Wall Display Decor Shelf",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved black wall display decor shelf available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/decor-shelf-001-black-wall-display-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "decor-stand-001-gold-pillar",
+      "title": "Gold Pillar Decor Stand",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved gold pillar decor stand available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/decor-stand-001-gold-pillar-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "decorative-vase-set-001-white-floral",
+      "title": "White Floral Decorative Vase Set",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved white floral decorative vase set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/decorative-vase-set-001-white-floral-01.webp",
+        "images/decor/decorative-vase-set-001-white-floral-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "kids-curtain-001-blue-cars",
+      "title": "Blue Cars Kids Curtain",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved blue cars kids curtain available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/kids-curtain-001-blue-cars-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "lamp-set-001-wire-cage-bulb",
+      "title": "Wire Cage Bulb Lamp Set",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved wire cage bulb lamp set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/lamp-set-001-wire-cage-bulb-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "light-tree-001-flower-branch",
+      "title": "Flower Branch Light Tree",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved flower branch light tree available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/light-tree-001-flower-branch-01.webp",
+        "images/decor/light-tree-001-flower-branch-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "metal-wall-art-001-leaves-birds",
+      "title": "Leaves Birds Metal Wall Art",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved leaves birds metal wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/metal-wall-art-001-leaves-birds-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "mirror-set-001-gold-moroccan",
+      "title": "Gold Moroccan Mirror Set",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved gold moroccan mirror set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/mirror-set-001-gold-moroccan-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "vase-set-001-red-white-glass",
+      "title": "Red White Glass Vase Set",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved red white glass vase set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/vase-set-001-red-white-glass-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "vase-set-002-blue-red-glass",
+      "title": "Blue Red Glass Vase Set",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved blue red glass vase set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/vase-set-002-blue-red-glass-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "wall-art-003-traditional-decor",
+      "title": "Traditional Decor Wall Art",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved traditional decor wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/wall-art-003-traditional-decor-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "wall-art-004-floral-triptych",
+      "title": "Floral Triptych Wall Art",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved floral triptych wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/wall-art-004-floral-triptych-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "wall-art-005-vase-canvas",
+      "title": "Vase Canvas Wall Art",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved vase canvas wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/wall-art-005-vase-canvas-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "wall-art-006-traditional-doorway",
+      "title": "Traditional Doorway Wall Art",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved traditional doorway wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/wall-art-006-traditional-doorway-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "wall-art-set-001-clock-calligraphy",
+      "title": "Clock Calligraphy Wall Art Set",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved clock calligraphy wall art set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/wall-art-set-001-clock-calligraphy-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "wall-art-set-002-framed-calligraphy",
+      "title": "Framed Calligraphy Wall Art Set",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved framed calligraphy wall art set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/wall-art-set-002-framed-calligraphy-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "wall-mirror-001-white-frame",
+      "title": "White Frame Wall Mirror",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved white frame wall mirror available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/wall-mirror-001-white-frame-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Size": "See photos"
+      }
+    },
+    {
+      "id": "bed-set-001-white-silver",
+      "title": "White Silver Bed Set",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved white silver bed set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/bed-set-001-white-silver-01.webp",
+        "images/furniture/bed-set-001-white-silver-02.webp",
+        "images/furniture/bed-set-001-white-silver-03.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "bed-set-002-black-headboard",
+      "title": "Black Headboard Bed Set",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved black headboard bed set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/bed-set-002-black-headboard-01.webp",
+        "images/furniture/bed-set-002-black-headboard-02.webp",
+        "images/furniture/bed-set-002-black-headboard-03.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "center-table-001-round-gold-glass",
+      "title": "Round Gold Glass Center Table",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved round gold glass center table available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/center-table-001-round-gold-glass-01.webp",
+        "images/furniture/center-table-001-round-gold-glass-02.webp",
+        "images/furniture/center-table-001-round-gold-glass-03.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "daybed-001-beige-tufted",
+      "title": "Beige Tufted Daybed",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved beige tufted daybed available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/daybed-001-beige-tufted-01.webp",
+        "images/furniture/daybed-001-beige-tufted-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "dining-table-001-glass-beige-chairs",
+      "title": "Glass Beige Chairs Dining Table",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved glass beige chairs dining table available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/dining-table-001-glass-beige-chairs-01.webp",
+        "images/furniture/dining-table-001-glass-beige-chairs-02.webp",
+        "images/furniture/dining-table-001-glass-beige-chairs-03.webp",
+        "images/furniture/dining-table-001-glass-beige-chairs-04.webp",
+        "images/furniture/dining-table-001-glass-beige-chairs-05.webp",
+        "images/furniture/dining-table-001-glass-beige-chairs-06.webp",
+        "images/furniture/dining-table-001-glass-beige-chairs-07.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "islamic-wall-art-001-allah-names",
+      "title": "Allah Names Islamic Wall Art",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved allah names islamic wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/islamic-wall-art-001-allah-names-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "islamic-wall-art-002-allah-rasool-muhammad",
+      "title": "Allah Rasool Muhammad Islamic Wall Art",
+      "category": "Decor",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved allah rasool muhammad islamic wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/decor/islamic-wall-art-002-allah-rasool-muhammad-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "pouffe-set-001-beige-gold",
+      "title": "Beige Gold Pouffe Set",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved beige gold pouffe set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/pouffe-set-001-beige-gold-01.webp",
+        "images/furniture/pouffe-set-001-beige-gold-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "recliner-chair-001-brown-leather",
+      "title": "Brown Leather Recliner Chair",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved brown leather recliner chair available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/recliner-chair-001-brown-leather-01.webp",
+        "images/furniture/recliner-chair-001-brown-leather-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "side-table-001-gold-glass-lamp",
+      "title": "Gold Glass Lamp Side Table",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved gold glass lamp side table available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/side-table-001-gold-glass-lamp-01.webp",
+        "images/furniture/side-table-001-gold-glass-lamp-02.webp",
+        "images/furniture/side-table-001-gold-glass-lamp-03.webp",
+        "images/furniture/side-table-001-gold-glass-lamp-04.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "sofa-003-beige-tufted",
+      "title": "Beige Tufted Sofa",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved beige tufted sofa available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/sofa-003-beige-tufted-01.webp",
+        "images/furniture/sofa-003-beige-tufted-02.webp",
+        "images/furniture/sofa-003-beige-tufted-03.webp",
+        "images/furniture/sofa-003-beige-tufted-04.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "sofa-chair-002-blue-round",
+      "title": "Blue Round Sofa Chair",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved blue round sofa chair available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/sofa-chair-002-blue-round-01.webp",
+        "images/furniture/sofa-chair-002-blue-round-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "sofa-chair-set-001-beige-round",
+      "title": "Beige Round Sofa Chair Set",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved beige round sofa chair set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/sofa-chair-set-001-beige-round-01.webp",
+        "images/furniture/sofa-chair-set-001-beige-round-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "sofa-set-004-black-leather",
+      "title": "Black Leather Sofa Set",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved black leather sofa set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/sofa-set-004-black-leather-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "wardrobe-001-white-kids-stickers",
+      "title": "White Kids Stickers Wardrobe",
+      "category": "Furniture",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved white kids stickers wardrobe available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/furniture/wardrobe-001-white-kids-stickers-01.webp",
+        "images/furniture/wardrobe-001-white-kids-stickers-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Color": "See photos"
+      }
+    },
+    {
+      "id": "bowl-spoon-set-001-white-gold",
+      "title": "White Gold Bowl Spoon Set",
+      "category": "Kitchen",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved white gold bowl spoon set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/kitchen/bowl-spoon-set-001-white-gold-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Set Includes": "As shown in photos"
+      }
+    },
+    {
+      "id": "casserole-warmer-001-black-gold",
+      "title": "Black Gold Casserole Warmer",
+      "category": "Kitchen",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved black gold casserole warmer available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/kitchen/casserole-warmer-001-black-gold-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Set Includes": "As shown in photos"
+      }
+    },
+    {
+      "id": "chafing-dish-002-prime-round-white",
+      "title": "Prime Round White Chafing Dish",
+      "category": "Kitchen",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved prime round white chafing dish available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/kitchen/chafing-dish-002-prime-round-white-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Set Includes": "As shown in photos"
+      }
+    },
+    {
+      "id": "dinner-set-001-white-gold",
+      "title": "White Gold Dinner Set",
+      "category": "Kitchen",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved white gold dinner set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/kitchen/dinner-set-001-white-gold-01.webp",
+        "images/kitchen/dinner-set-001-white-gold-02.webp",
+        "images/kitchen/dinner-set-001-white-gold-03.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Set Includes": "As shown in photos"
+      }
+    },
+    {
+      "id": "food-warmer-001-rectangular-glass",
+      "title": "Rectangular Glass Food Warmer",
+      "category": "Kitchen",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved rectangular glass food warmer available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/kitchen/food-warmer-001-rectangular-glass-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Set Includes": "As shown in photos"
+      }
+    },
+    {
+      "id": "glass-bowl-set-001-clear-serving",
+      "title": "Clear Serving Glass Bowl Set",
+      "category": "Kitchen",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved clear serving glass bowl set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/kitchen/glass-bowl-set-001-clear-serving-01.webp",
+        "images/kitchen/glass-bowl-set-001-clear-serving-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Set Includes": "As shown in photos"
+      }
+    },
+    {
+      "id": "kitchen-storage-set-001-glass-biscuit-bowls",
+      "title": "Glass Biscuit Bowls Kitchen Storage Set",
+      "category": "Kitchen",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved glass biscuit bowls kitchen storage set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-01.webp",
+        "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-02.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Set Includes": "As shown in photos"
+      }
+    },
+    {
+      "id": "serving-dish-set-001-white-gold",
+      "title": "White Gold Serving Dish Set",
+      "category": "Kitchen",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved white gold serving dish set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/kitchen/serving-dish-set-001-white-gold-01.webp",
+        "images/kitchen/serving-dish-set-001-white-gold-02.webp",
+        "images/kitchen/serving-dish-set-001-white-gold-03.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Set Includes": "As shown in photos"
+      }
+    },
+    {
+      "id": "tea-cup-set-001-white-brown",
+      "title": "White Brown Tea Cup Set",
+      "category": "Kitchen",
+      "price": 0,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good — see photos for details",
+      "description": "Pre-loved white brown tea cup set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "images": [
+        "images/kitchen/tea-cup-set-001-white-brown-01.webp"
+      ],
+      "specs": {
+        "Material": "See photos",
+        "Set Includes": "As shown in photos"
+      }
+    }
+  ]
+}
