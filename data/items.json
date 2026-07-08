@@ -3,7 +3,7 @@
     "currency": "Rs.",
     "whatsapp": "923332466776",
     "pickupNote": "Pickup from Clifton, Karachi. Exact location shared after confirmation.",
-    "updated": "2026-07-07"
+    "updated": "2026-07-08"
   },
   "items": [
     {
@@ -25,21 +25,18 @@
     },
     {
       "id": "artificial-plant-001-green-lighted-pot",
-      "title": "Green Lighted Pot Artificial Plant",
+      "title": "Green Artificial Plant",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved green lighted pot artificial plant available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved green artificial plant available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/artificial-plant-001-green-lighted-pot-01.webp",
         "images/decor/artificial-plant-001-green-lighted-pot-02.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "candle-holder-001-gold-glass-three-cup",
