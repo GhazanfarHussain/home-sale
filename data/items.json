@@ -826,6 +826,69 @@
       "specs": {
         "Brand": "Home Center, Dubai"
       }
+    },
+    {
+      "id": "gold-crystal-table-lamp",
+      "title": "Gold Crystal Table Lamp",
+      "category": "Furniture",
+      "price": 15000,
+      "status": "Available",
+      "featured": false,
+      "condition": "",
+      "description": "Elegant gold table lamp with a curved metal base and crystal-pattern shade. Gives warm light and works well for bedroom side tables, living room corners, or decorative display.",
+      "images": [
+        "images/decor/lamp-001-gold-crystal-table-01.webp",
+        "images/decor/lamp-001-gold-crystal-table-02.webp"
+      ],
+      "specs": {
+        "Brand": "Hone Center, Dubai"
+      }
+    },
+    {
+      "id": "kids-study-desk",
+      "title": "Kids Study Desk with Shelves",
+      "category": "Furniture",
+      "price": 20000,
+      "status": "Available",
+      "featured": false,
+      "condition": "",
+      "description": "Colorful kids study desk with built-in yellow circular shelves, checkerboard front design, and lower storage space. Suitable for children’s study, books, toys, and room organization.",
+      "images": [
+        "images/kids/kids-study-desk-001-yellow-race-01.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "electric-treadmill",
+      "title": "Electric Treadmill",
+      "category": "Furniture",
+      "price": 20000,
+      "status": "Available",
+      "featured": false,
+      "condition": "",
+      "description": "Pre-owned electric treadmill with display console, side handrails, cup holders, and running belt. Suitable for home fitness and walking or light running workouts.",
+      "images": [
+        "images/other/treadmill-001-black-grey-electric-01.webp",
+        "images/other/treadmill-001-black-grey-electric-02.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "kids-single-bed",
+      "title": "Kids Single Bed with Storage",
+      "category": "Furniture",
+      "price": 15000,
+      "status": "Available",
+      "featured": false,
+      "condition": "",
+      "description": "Kids single bed with white frame, green canopy, space-themed bedsheet, and under-bed storage drawers. Suitable for a child’s bedroom, with practical storage for toys, bedding, and room essentials. Visible wear on drawer fronts, see photos for condition.",
+      "images": [
+        "images/kids/kids-bed-001-white-space-theme-01.webp",
+        "images/kids/kids-bed-001-white-space-theme-02.webp",
+        "images/kids/kids-bed-001-white-space-theme-03.webp",
+        "images/kids/kids-bed-001-white-space-theme-04.webp"
+      ],
+      "specs": {}
     }
   ]
 }
