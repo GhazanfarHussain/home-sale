@@ -784,10 +784,11 @@
       "price": 20000,
       "status": "Available",
       "featured": false,
-      "condition": "",
+      "condition": "Good, see photos for details",
       "description": "Colorful kids study desk with built-in yellow circular shelves, checkerboard front design, and lower storage space. Suitable for children’s study, books, toys, and room organization.",
       "images": [
-        "images/kids/kids-study-desk-001-yellow-race-01.webp"
+        "images/kids/kids-study-desk-001-yellow-race-01.webp",
+        "images/kids/kids-study-desk-001-yellow-race-02.webp"
       ],
       "specs": {}
     },
