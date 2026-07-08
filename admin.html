@@ -152,25 +152,17 @@
       <form id="productForm">
         <div class="form-grid">
           <div class="field">
-            <label>ID <span class="req">*</span></label>
-            <input type="text" id="f_id" placeholder="e.g. sofa-set" />
-            <p class="hint">Lowercase, no spaces. Used in the product URL.</p>
+            <label for="f_id">ID <span class="req">*</span></label>
+            <input type="text" id="f_id" placeholder="auto-generated-from-title" readonly />
+            <p class="hint">Generated automatically from title.</p>
           </div>
           <div class="field">
             <label>Title <span class="req">*</span></label>
             <input type="text" id="f_title" placeholder="e.g. 3-Seater Sofa" />
           </div>
           <div class="field">
-            <label>Category <span class="req">*</span></label>
-            <select id="f_category">
-              <option>Furniture</option>
-              <option>Electronics</option>
-              <option>Appliances</option>
-              <option>Kitchen</option>
-              <option>Kids</option>
-              <option>Decor</option>
-              <option>Other</option>
-            </select>
+            <label for="f_category">Category <span class="req">*</span></label>
+            <select id="f_category" name="productCategory" aria-label="Product category" required></select>
             <p class="hint">Choose the folder category for images and similar-item grouping.</p>
           </div>
           <div class="field">
@@ -188,8 +180,8 @@
             <p class="hint">Available items can receive WhatsApp inquiries. Sold closes inquiries.</p>
           </div>
           <div class="field">
-            <label>Condition</label>
-            <input type="text" id="f_condition" placeholder="e.g. Very good - light use" />
+            <label for="f_condition">Condition</label>
+            <select id="f_condition"></select>
           </div>
           <div class="field">
             <label>Featured</label>

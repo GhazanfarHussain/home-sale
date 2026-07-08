@@ -58,7 +58,7 @@ async function init() {
 }
 
 function buildFilters() {
-  const cats = ["All", ...new Set(state.items.map((i) => i.category).filter(Boolean))];
+  const cats = categoriesWithProducts(state.items);
   els.filters.innerHTML = cats
     .map(
       (c) =>

@@ -150,6 +150,145 @@ function placeholderImage(width, height) {
 const IMG_PLACEHOLDER = placeholderImage(400, 300);
 const IMG_PLACEHOLDER_SM = placeholderImage(60, 46);
 
+/** Product categories (display order for filters and admin). */
+const PRODUCT_CATEGORIES = [
+  "Appliances",
+  "Decor",
+  "Electronics",
+  "Furniture",
+  "Kids",
+  "Kitchen",
+  "Other",
+];
+
+/** Condition dropdown options for admin (default is Good, see photos for details). */
+const CONDITION_OPTIONS = [
+  "Excellent",
+  "Very good",
+  "Good",
+  "Good, see photos for details",
+  "Fair, visible wear",
+  "Needs cleaning",
+  "Minor scratches",
+  "Light use",
+  "Pre-owned",
+  "New / unused",
+  "Open box",
+  "Working condition",
+  "Sold as seen",
+];
+
+const DEFAULT_CONDITION = "Good, see photos for details";
+
+/**
+ * Build homepage/admin category list: "All" plus categories that have at least one product,
+ * in canonical order, then any unknown categories alphabetically.
+ */
+function categoriesWithProducts(items) {
+  const used = new Set(
+    (Array.isArray(items) ? items : [])
+      .map((i) => i && i.category)
+      .filter(Boolean)
+  );
+  const ordered = PRODUCT_CATEGORIES.filter((c) => used.has(c));
+  const extras = [...used]
+    .filter((c) => !PRODUCT_CATEGORIES.includes(c))
+    .sort((a, b) => a.localeCompare(b));
+  return ["All", ...ordered, ...extras];
+}
+
+/** Convert product title to URL-safe id slug. */
+function slugifyId(title) {
+  return String(title || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+/** Generate unique product id from title; adds -2, -3 suffix if needed. */
+function uniqueProductId(title, items, excludeId) {
+  let base = slugifyId(title);
+  if (!base) base = "product";
+  const ids = new Set(
+    (Array.isArray(items) ? items : [])
+      .filter((i) => i && i.id !== excludeId)
+      .map((i) => i.id)
+  );
+  if (!ids.has(base)) return base;
+  let n = 2;
+  while (ids.has(base + "-" + n)) n++;
+  return base + "-" + n;
+}
+
+/** Populate a condition &lt;select&gt;; preserves custom values not in the preset list. */
+function fillConditionSelect(selectEl, value) {
+  if (!selectEl) return;
+  const val = String(value || "").trim();
+  const options = CONDITION_OPTIONS.slice();
+  if (val && !options.includes(val)) options.unshift(val);
+  selectEl.innerHTML = options
+    .map(
+      (opt) =>
+        '<option value="' +
+        escapeHtmlAttr(opt) +
+        '"' +
+        (opt === val ? " selected" : "") +
+        ">" +
+        escapeHtml(opt) +
+        "</option>"
+    )
+    .join("");
+  if (!val) selectEl.value = DEFAULT_CONDITION;
+}
+
+/** Populate product category &lt;select&gt; with explicit option values. */
+function populateCategorySelect(selectEl, selectedValue) {
+  if (!selectEl) return;
+  const val = String(selectedValue || "").trim();
+  const options = PRODUCT_CATEGORIES.slice();
+  if (val && !options.includes(val)) options.unshift(val);
+  const selected = val || "Furniture";
+  selectEl.innerHTML = options
+    .map(
+      (cat) =>
+        '<option value="' +
+        escapeHtmlAttr(cat) +
+        '"' +
+        (cat === selected ? " selected" : "") +
+        ">" +
+        escapeHtml(cat) +
+        "</option>"
+    )
+    .join("");
+  selectEl.value = selected;
+}
+
+/** Read the modal category &lt;select&gt; from the currently selected option. */
+function readFormCategory() {
+  const sel = document.getElementById("f_category");
+  if (!sel) return "";
+  const val = String(sel.value || "").trim();
+  if (val) return val;
+  const idx = sel.selectedIndex;
+  if (idx < 0 || !sel.options[idx]) return "";
+  const opt = sel.options[idx];
+  return String(opt.value || opt.textContent || "").trim();
+}
+
+function escapeHtml(str) {
+  return String(str ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function escapeHtmlAttr(str) {
+  return escapeHtml(str).replace(/'/g, "&#39;");
+}
+
 /** Valid category folders under images/ */
 const IMAGE_CATEGORY_FOLDERS = [
   "furniture",

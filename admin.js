@@ -2,7 +2,7 @@
 
 const DATA_URL = "data/items.json";
 const DRAFT_KEY = "homeSaleAdminDraft";
-const CATEGORIES = ["Furniture", "Electronics", "Appliances", "Kitchen", "Kids", "Decor", "Other"];
+const CATEGORIES = PRODUCT_CATEGORIES;
 const STATUSES = ["Available", "Reserved", "Sold"];
 const PLACEHOLDER = IMG_PLACEHOLDER_SM;
 const SAMPLE_PRODUCT_IDS = [
@@ -28,13 +28,14 @@ let meta = {
 let items = [];        // working copy (source of truth in the page)
 let original = [];     // last loaded/imported snapshot (for reset)
 let editingId = null;  // id being edited, or null when adding
+let formCategorySelection = "Furniture"; // tracks modal category between fillForm and save
 
 const el = (id) => document.getElementById(id);
 const ui = {
   status: el("statusMsg"),
   tbody: el("adminTableBody"),
   search: el("adminSearch"),
-  category: el("adminCategory"),
+  categoryFilter: el("adminCategory"),
   statusFilter: el("adminStatus"),
   draftHint: el("draftHint"),
   // modal
@@ -423,7 +424,7 @@ function render() {
 
 function getFiltered() {
   const q = ui.search.value.trim().toLowerCase();
-  const cat = ui.category.value;
+  const cat = ui.categoryFilter.value;
   const st = ui.statusFilter.value;
   return items.filter((item) => {
     if (cat !== "All" && item.category !== cat) return false;
@@ -438,23 +439,44 @@ function getFiltered() {
 }
 
 function populateCategoryFilter() {
-  const current = ui.category.value || "All";
-  const cats = ["All", ...new Set([...CATEGORIES, ...items.map((i) => i.category).filter(Boolean)])];
-  ui.category.innerHTML = cats
+  const current = ui.categoryFilter.value || "All";
+  const cats = categoriesWithProducts(items);
+  ui.categoryFilter.innerHTML = cats
     .map((c) => `<option value="${escapeAttr(c)}"${c === current ? " selected" : ""}>${c === "All" ? "All categories" : escapeHtml(c)}</option>`)
     .join("");
 }
 
 /* ---------- Modal add/edit ---------- */
+function getFormCategoryValue() {
+  const field = ui.form && ui.form.elements.namedItem("productCategory");
+  if (field) {
+    const val = String(field.value || "").trim();
+    if (val) return val;
+  }
+  return readFormCategory() || formCategorySelection || "";
+}
+
 function bindModal() {
   el("modalClose").addEventListener("click", closeModal);
   el("modalCancel").addEventListener("click", closeModal);
-  ui.backdrop.addEventListener("click", (e) => {
-    if (e.target === ui.backdrop) closeModal();
-  });
   el("addImageBtn").addEventListener("click", () => addImageRow(""));
   el("addSpecBtn").addEventListener("click", () => addSpecRow("", ""));
   ui.form.addEventListener("submit", onSave);
+
+  el("f_category").addEventListener("change", () => {
+    formCategorySelection = getFormCategoryValue() || formCategorySelection;
+  });
+
+  el("f_title").addEventListener("input", () => {
+    if (editingId !== null) return;
+    el("f_id").value = uniqueProductId(el("f_title").value, items, null);
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape" || !ui.backdrop.classList.contains("open")) return;
+    e.preventDefault();
+    e.stopPropagation();
+  });
 }
 
 function openEdit(id) {
@@ -463,10 +485,14 @@ function openEdit(id) {
   editingId = id;
   ui.modalTitle.textContent = "Edit product";
   fillForm(item);
+  el("f_id").readOnly = true;
   openModal();
 }
 
 function openAdd() {
+  if (editingId === null && ui.backdrop.classList.contains("open")) {
+    return;
+  }
   editingId = null;
   ui.modalTitle.textContent = "Add new product";
   fillForm({
@@ -476,22 +502,25 @@ function openAdd() {
     price: "",
     status: "Available",
     featured: false,
-    condition: "",
+    condition: DEFAULT_CONDITION,
     description: "",
     images: [""],
     specs: {},
   });
+  el("f_id").readOnly = true;
   openModal();
 }
 
 function fillForm(item) {
-  el("f_id").value = item.id || "";
+  const isNew = editingId === null;
+  el("f_id").value = item.id || (isNew ? uniqueProductId(item.title, items, null) : "");
   el("f_title").value = item.title || "";
-  el("f_category").value = item.category || "Furniture";
+  populateCategorySelect(el("f_category"), item.category || "Furniture");
+  formCategorySelection = getFormCategoryValue() || item.category || "Furniture";
   el("f_price").value = item.price ?? "";
   el("f_status").value = item.status || "Available";
   el("f_featured").checked = !!item.featured;
-  el("f_condition").value = item.condition || "";
+  fillConditionSelect(el("f_condition"), item.condition || DEFAULT_CONDITION);
   el("f_description").value = item.description || "";
 
   ui.imagesEditor.innerHTML = "";
@@ -670,24 +699,29 @@ function onSave(e) {
   e.preventDefault();
   const id = el("f_id").value.trim();
   const title = el("f_title").value.trim();
-  const category = el("f_category").value;
+  const category = getFormCategoryValue();
   const priceRaw = el("f_price").value;
   const status = el("f_status").value;
 
   // Validate required fields
-  if (!id) return showStatus("err", "ID is required.");
-  if (!/^[a-z0-9-]+$/.test(id))
-    return showStatus("err", "ID may only contain lowercase letters, numbers and hyphens.");
   if (!title) return showStatus("err", "Title is required.");
+  const finalId = editingId
+    ? editingId
+    : id || uniqueProductId(title, items, null);
+  if (!finalId) return showStatus("err", "ID could not be generated from title.");
+  if (!/^[a-z0-9-]+$/.test(finalId))
+    return showStatus("err", "ID may only contain lowercase letters, numbers and hyphens.");
   if (!category) return showStatus("err", "Category is required.");
+  if (!CATEGORIES.includes(category))
+    return showStatus("err", "Invalid category. Choose a value from the dropdown.");
   const price = Number(priceRaw);
   if (priceRaw === "" || !isFinite(price) || price < 0)
     return showStatus("err", "Price must be a number of 0 or more.");
   if (!STATUSES.includes(status)) return showStatus("err", "Invalid status.");
 
   // Unique id check
-  const clash = items.find((i) => i.id === id && i.id !== editingId);
-  if (clash) return showStatus("err", `Another product already uses the ID "${id}".`);
+  const clash = items.find((i) => i.id === finalId && i.id !== editingId);
+  if (clash) return showStatus("err", `Another product already uses the ID "${finalId}".`);
 
   const images = Array.from(ui.imagesEditor.querySelectorAll(".img-row-fields input"))
     .map((i) => i.value.trim())
@@ -712,7 +746,7 @@ function onSave(e) {
   });
 
   const record = {
-    id,
+    id: finalId,
     title,
     category,
     price,
@@ -883,7 +917,7 @@ function bindToolbar() {
 }
 function bindFilters() {
   ui.search.addEventListener("input", render);
-  ui.category.addEventListener("change", render);
+  ui.categoryFilter.addEventListener("change", render);
   ui.statusFilter.addEventListener("change", render);
 }
 
@@ -895,6 +929,7 @@ function openModal() {
 function closeModal() {
   ui.backdrop.classList.remove("open");
   document.body.style.overflow = "";
+  editingId = null;
 }
 function findItem(id) {
   return items.find((i) => i.id === id);
