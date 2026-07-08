@@ -850,6 +850,20 @@
         "images/electronics/S500934069_1.webp"
       ],
       "specs": {}
+    },
+    {
+      "id": "dfgg6dfhg-dfg-sdf",
+      "title": "dfgg6dfhg-dfg-sdf",
+      "category": "Other",
+      "price": 5000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "",
+      "images": [
+        "images/kitchen/serving-dish-set-001-white-gold-01.webp"
+      ],
+      "specs": {}
     }
   ]
 }
