@@ -10,7 +10,7 @@
       "id": "refrigerator-001-hitachi-black-side-by-side",
       "title": "Hitachi Black Side By Side Refrigerator",
       "category": "Appliances",
-      "price": 0,
+      "price": 300000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -171,8 +171,10 @@
       "condition": "Good — see photos for details",
       "description": "Pre-loved white floral decorative vase set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
+        "images/decor/decorative-vase-set-001-white-floral-02.webp",
+        "images/decor/decorative-vase-set-001-white-floral-03.webp",
         "images/decor/decorative-vase-set-001-white-floral-01.webp",
-        "images/decor/decorative-vase-set-001-white-floral-02.webp"
+        "images/decor/decorative-vase-set-001-white-floral-04.webp"
       ],
       "specs": {
         "Brand": "Pan Emirates, UAE"
@@ -430,7 +432,7 @@
       "category": "Furniture",
       "price": 150000,
       "status": "Available",
-      "featured": false,
+      "featured": true,
       "condition": "Good — see photos for details",
       "description": "Pre-loved round gold mirror center table available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
@@ -567,7 +569,7 @@
       "category": "Furniture",
       "price": 150000,
       "status": "Available",
-      "featured": false,
+      "featured": true,
       "condition": "Good — see photos for details",
       "description": "Pre-loved beige tufted sofa available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
@@ -788,6 +790,21 @@
       "specs": {
         "Brand": "Home Center, Dubai"
       }
+    },
+    {
+      "id": "plant-stand",
+      "title": "Black Mosaic Plant Stand Set",
+      "category": "Furniture",
+      "price": 6000,
+      "status": "Available",
+      "featured": false,
+      "condition": "",
+      "description": "Set of three black metal plant stands with round mosaic tile tops in different heights. Suitable for indoor decor, plant display, or corner styling.",
+      "images": [
+        "images/decor/plant-stand-set-001-black-mosaic-01-compressed.webp",
+        "images/decor/plant-stand-set-001-black-mosaic-02-compressed.webp"
+      ],
+      "specs": {}
     }
   ]
 }
