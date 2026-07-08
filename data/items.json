@@ -106,7 +106,7 @@
     },
     {
       "id": "decor-bowl-001-gold-crystal",
-      "title": "Gold Crystal Decor Bowl",
+      "title": "Gold Crystal Decor",
       "category": "Decor",
       "price": 4000,
       "status": "Available",
@@ -424,7 +424,7 @@
       "status": "Available",
       "featured": true,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved black headboard bed set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Black headboard bed set with a padded square-panel leather-style headboard, matching side tables, and built-in storage. Includes a modern black finish that works well for a main bedroom or guest room setup. Pre-owned condition, see photos for surface marks, storage details, and usage condition.",
       "images": [
         "images/furniture/bed-set-002-black-headboard-01.webp",
         "images/furniture/bed-set-002-black-headboard-02.webp",
@@ -456,13 +456,13 @@
     },
     {
       "id": "dining-table-001-glass-beige-chairs",
-      "title": "Glass Beige Chairs Dining Table",
+      "title": "Glass Dining Table with Beige Chairs",
       "category": "Furniture",
       "price": 50000,
       "status": "Available",
       "featured": true,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved glass beige chairs dining table available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Glass dining table set with beige upholstered chairs and a clear rectangular glass tabletop on a chrome-style frame. Suitable for dining room or family seating, with a clean modern look and comfortable high-back chairs. Pre-owned condition, see photos for glass surface, chair fabric, frame finish, and usage details.",
       "images": [
         "images/furniture/dining-table-001-glass-beige-chairs-01.webp",
         "images/furniture/dining-table-001-glass-beige-chairs-02.webp",
@@ -527,8 +527,6 @@
       "condition": "Good — see photos for details",
       "description": "Matching beige tufted living room set including a 3-seater sofa, daybed with side bolsters, and two round pouffes with gold-tone base detailing. Elegant button-tufted design suitable for lounge, living room, or seating area. Pre-owned condition, see photos for fabric marks, light wear, and usage details.",
       "images": [
-        "images/furniture/sofa-003-beige-tufted-01.webp",
-        "images/furniture/sofa-003-beige-tufted-02.webp",
         "images/furniture/sofa-003-beige-tufted-03.webp",
         "images/furniture/sofa-003-beige-tufted-04.webp",
         "images/furniture/daybed-001-beige-tufted-01.webp",
@@ -749,7 +747,7 @@
       "id": "plant-stand",
       "title": "Black Mosaic Plant Stand Set",
       "category": "Furniture",
-      "price": 6000,
+      "price": 10000,
       "status": "Available",
       "featured": false,
       "condition": "",
@@ -767,14 +765,14 @@
       "price": 15000,
       "status": "Available",
       "featured": false,
-      "condition": "",
+      "condition": "Good, see photos for details",
       "description": "Elegant gold table lamp with a curved metal base and crystal-pattern shade. Gives warm light and works well for bedroom side tables, living room corners, or decorative display.",
       "images": [
         "images/decor/lamp-001-gold-crystal-table-01.webp",
         "images/decor/lamp-001-gold-crystal-table-02.webp"
       ],
       "specs": {
-        "Brand": "Hone Center, Dubai"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
