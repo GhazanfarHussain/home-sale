@@ -449,24 +449,6 @@
       }
     },
     {
-      "id": "daybed-001-beige-tufted",
-      "title": "Beige Tufted Daybed",
-      "category": "Furniture",
-      "price": 0,
-      "status": "Available",
-      "featured": false,
-      "condition": "Good — see photos for details",
-      "description": "Pre-loved beige tufted daybed available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
-      "images": [
-        "images/furniture/daybed-001-beige-tufted-01.webp",
-        "images/furniture/daybed-001-beige-tufted-02.webp"
-      ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
-    },
-    {
       "id": "dining-table-001-glass-beige-chairs",
       "title": "Glass Beige Chairs Dining Table",
       "category": "Furniture",
@@ -515,24 +497,6 @@
       "specs": {}
     },
     {
-      "id": "pouffe-set-001-beige-gold",
-      "title": "Beige Gold Pouffe Set",
-      "category": "Furniture",
-      "price": 0,
-      "status": "Available",
-      "featured": false,
-      "condition": "Good — see photos for details",
-      "description": "Pre-loved beige gold pouffe set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
-      "images": [
-        "images/furniture/pouffe-set-001-beige-gold-01.webp",
-        "images/furniture/pouffe-set-001-beige-gold-02.webp"
-      ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
-    },
-    {
       "id": "recliner-chair-001-brown-leather",
       "title": "Maroon Leather Recliner Chair",
       "category": "Furniture",
@@ -546,26 +510,6 @@
         "images/furniture/recliner-chair-001-brown-leather-02.webp"
       ],
       "specs": {}
-    },
-    {
-      "id": "side-table-001-gold-glass-lamp",
-      "title": "Gold Glass Lamp Side Table",
-      "category": "Furniture",
-      "price": 0,
-      "status": "Available",
-      "featured": false,
-      "condition": "Good — see photos for details",
-      "description": "Pre-loved gold glass lamp side table available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
-      "images": [
-        "images/furniture/side-table-001-gold-glass-lamp-01.webp",
-        "images/furniture/side-table-001-gold-glass-lamp-02.webp",
-        "images/furniture/side-table-001-gold-glass-lamp-03.webp",
-        "images/furniture/side-table-001-gold-glass-lamp-04.webp"
-      ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
     },
     {
       "id": "sofa-003-beige-tufted",
