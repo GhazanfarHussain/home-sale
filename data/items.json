@@ -160,7 +160,8 @@
       "condition": "Good — see photos for details",
       "description": "Pre-loved gold pillar candle stand available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
-        "images/decor/decor-stand-001-gold-pillar-01.webp"
+        "images/decor/decor-stand-001-gold-pillar-01.webp",
+        "images/decor/decor-stand-001-gold-pillar-02.webp"
       ],
       "specs": {}
     },
@@ -835,6 +836,36 @@
         "images/furniture/wardrobe-001-white-mirror-01.webp",
         "images/furniture/wardrobe-001-white-mirror-02.webp",
         "images/furniture/wardrobe-001-white-mirror-03.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "white-blossom-artificial-tree-with-decorative-pot",
+      "title": "White Blossom Artificial Tree with Decorative Pot",
+      "category": "Furniture",
+      "price": 10000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Tall white blossom artificial tree in a decorative white pot with gold-tone rim and stone-style base filling. Suitable for living room corners, hallway decor, bedroom styling, or event-style home decoration. Pre-owned condition, see photos for details.",
+      "images": [
+        "images/decor/artificial-tree-001-white-blossom-pot-01.webp",
+        "images/decor/artificial-tree-001-white-blossom-pot-02.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "black-and-gold-candle-lantern-set",
+      "title": "Black and Gold Candle Lantern Set",
+      "category": "Furniture",
+      "price": 8000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Decorative candle lantern set with black and gold metal frames, glass panels, handles, and pillar candles inside. Suitable for living room corners, console display, balcony decor, or ambient candle-style decoration. Pre-owned condition, see photos for surface marks and usage details.",
+      "images": [
+        "images/decor/lantern-set-001-black-gold-candle-01-compressed.webp",
+        "images/decor/lantern-set-001-black-gold-candle-02-compressed.webp"
       ],
       "specs": {}
     }
