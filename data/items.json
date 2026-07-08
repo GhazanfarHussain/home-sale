@@ -14,7 +14,7 @@
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved hitachi black side by side refrigerator available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved hitachi black side by side refrigerator available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/appliances/refrigerator-001-hitachi-black-side-by-side-01.webp"
       ],
@@ -36,30 +36,29 @@
         "images/decor/artificial-plant-001-green-lighted-pot-01.webp",
         "images/decor/artificial-plant-001-green-lighted-pot-02.webp"
       ],
-      "specs": {}
+      "specs": {
+        "Material": "Artificial"
+      }
     },
     {
       "id": "candle-holder-001-gold-glass-three-cup",
       "title": "Gold Glass Three Cup Candle Holder",
       "category": "Decor",
-      "price": 0,
+      "price": 3000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved gold glass three cup candle holder available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved gold glass three cup candle holder available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/candle-holder-001-gold-glass-three-cup-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "candle-holder-set-002-gold-crystal-tall",
       "title": "Gold Crystal Tall Candle Holder Set",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -69,113 +68,98 @@
         "images/decor/candle-holder-set-002-gold-crystal-tall-02.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
+        "Brand": "Pan Emirates, UAE"
       }
     },
     {
       "id": "candle-holder-set-003-crystal-lotus-lantern",
       "title": "Crystal Lotus Lantern Candle Holder Set",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved crystal lotus lantern candle holder set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved crystal lotus lantern candle holder set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/candle-holder-set-003-crystal-lotus-lantern-01.webp",
         "images/decor/candle-holder-set-003-crystal-lotus-lantern-02.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "crystal-vase-001-clear-tall",
       "title": "Clear Tall Crystal Vase",
       "category": "Decor",
-      "price": 0,
+      "price": 3000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved clear tall crystal vase available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved clear tall crystal vase available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/crystal-vase-001-clear-tall-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
+        "Material": "Crystal"
       }
     },
     {
       "id": "decor-bowl-001-gold-crystal",
       "title": "Gold Crystal Decor Bowl",
       "category": "Decor",
-      "price": 0,
+      "price": 4000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved gold crystal decor bowl available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved gold crystal decor bowl available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/decor-bowl-001-gold-crystal-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "decor-piece-002-glass-sculptures",
       "title": "Glass Sculptures Decor Piece",
       "category": "Decor",
-      "price": 0,
+      "price": 7000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved glass sculptures decor piece available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved glass sculptures decor piece available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/decor-piece-002-glass-sculptures-01.webp",
         "images/decor/decor-piece-002-glass-sculptures-02.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "decor-shelf-001-black-wall-display",
       "title": "Black Wall Display Decor Shelf",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved black wall display decor shelf available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved black wall display decor shelf available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/decor-shelf-001-black-wall-display-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
+        "Material": "Wood"
       }
     },
     {
       "id": "decor-stand-001-gold-pillar",
-      "title": "Gold Pillar Decor Stand",
+      "title": "Gold Pillar Candle Stand",
       "category": "Decor",
-      "price": 0,
+      "price": 2000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved gold pillar decor stand available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved gold pillar candle stand available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/decor-stand-001-gold-pillar-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "decorative-vase-set-001-white-floral",
