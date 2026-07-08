@@ -392,7 +392,7 @@
     },
     {
       "id": "bed-set-001-white-silver",
-      "title": "White Silver Bed Set",
+      "title": "White Silver Bed Set with Side Tables",
       "category": "Furniture",
       "price": 150000,
       "status": "Available",
@@ -401,8 +401,10 @@
       "description": "Pre-loved white silver bed set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/furniture/bed-set-001-white-silver-01.webp",
-        "images/furniture/bed-set-001-white-silver-02.webp",
-        "images/furniture/bed-set-001-white-silver-03.webp"
+        "images/furniture/bed-set-001-white-silver-06.webp",
+        "images/furniture/bed-set-001-white-silver-03.webp",
+        "images/furniture/bed-set-001-white-silver-05.webp",
+        "images/furniture/bed-set-001-white-silver-04.webp"
       ],
       "specs": {
         "Brand": "Home Center, Dubai"
@@ -438,7 +440,9 @@
       "images": [
         "images/furniture/center-table-001-round-gold-glass-01.webp",
         "images/furniture/center-table-001-round-gold-glass-02.webp",
-        "images/furniture/center-table-001-round-gold-glass-03.webp"
+        "images/furniture/center-table-001-round-gold-glass-03.webp",
+        "images/furniture/center-table-set-001-round-gold-glass-04.webp",
+        "images/furniture/center-table-set-001-round-gold-glass-05.webp"
       ],
       "specs": {
         "Brand": "Home Center, Dubai"
@@ -805,6 +809,23 @@
         "images/decor/plant-stand-set-001-black-mosaic-02-compressed.webp"
       ],
       "specs": {}
+    },
+    {
+      "id": "dressing-table",
+      "title": "White Dressing Table with Mirror and Shelves",
+      "category": "Furniture",
+      "price": 50000,
+      "status": "Available",
+      "featured": true,
+      "condition": "",
+      "description": "White dressing table with large mirror, black glass shelves, and multiple storage drawers. Includes a glossy tabletop and side display shelves, suitable for bedroom storage, makeup, and daily grooming use.",
+      "images": [
+        "images/furniture/dressing-table-001-white-mirror-01.webp",
+        "images/furniture/dressing-table-001-white-mirror-02.webp"
+      ],
+      "specs": {
+        "Brand": "Home Center, Dubai"
+      }
     }
   ]
 }
