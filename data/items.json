@@ -585,7 +585,7 @@
     {
       "id": "wardrobe-001-white-kids-stickers",
       "title": "White Kids Wardrobe",
-      "category": "Furniture",
+      "category": "Kids",
       "price": 20000,
       "status": "Available",
       "featured": false,
@@ -778,7 +778,7 @@
     {
       "id": "kids-study-desk",
       "title": "Kids Study Desk with Shelves",
-      "category": "Furniture",
+      "category": "Kids",
       "price": 20000,
       "status": "Available",
       "featured": false,
@@ -807,7 +807,7 @@
     {
       "id": "kids-single-bed",
       "title": "Kids Single Bed with Storage",
-      "category": "Furniture",
+      "category": "Kids",
       "price": 15000,
       "status": "Available",
       "featured": false,
