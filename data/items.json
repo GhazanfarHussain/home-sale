@@ -422,7 +422,7 @@
       "category": "Furniture",
       "price": 100000,
       "status": "Available",
-      "featured": false,
+      "featured": true,
       "condition": "Good — see photos for details",
       "description": "Pre-loved black headboard bed set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
@@ -842,7 +842,7 @@
     {
       "id": "white-blossom-artificial-tree-with-decorative-pot",
       "title": "White Blossom Artificial Tree with Decorative Pot",
-      "category": "Furniture",
+      "category": "Decor",
       "price": 10000,
       "status": "Available",
       "featured": false,
@@ -857,7 +857,7 @@
     {
       "id": "black-and-gold-candle-lantern-set",
       "title": "Black and Gold Candle Lantern Set",
-      "category": "Furniture",
+      "category": "Decor",
       "price": 8000,
       "status": "Available",
       "featured": false,
