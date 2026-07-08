@@ -165,7 +165,7 @@
       "id": "decorative-vase-set-001-white-floral",
       "title": "White Floral Decorative Vase Set",
       "category": "Decor",
-      "price": 0,
+      "price": 10000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -175,15 +175,14 @@
         "images/decor/decorative-vase-set-001-white-floral-02.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
+        "Brand": "Pan Emirates, UAE"
       }
     },
     {
       "id": "kids-curtain-001-blue-cars",
       "title": "Blue Cars Kids Curtain",
       "category": "Decor",
-      "price": 0,
+      "price": 10000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -191,68 +190,60 @@
       "images": [
         "images/decor/kids-curtain-001-blue-cars-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "lamp-set-001-wire-cage-bulb",
       "title": "Wire Cage Bulb Lamp Set",
       "category": "Decor",
-      "price": 0,
+      "price": 3000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved wire cage bulb lamp set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved wire cage bulb lamp set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/lamp-set-001-wire-cage-bulb-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "light-tree-001-flower-branch",
       "title": "Flower Branch Light Tree",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved flower branch light tree available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved flower branch light tree lamp available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/light-tree-001-flower-branch-01.webp",
         "images/decor/light-tree-001-flower-branch-02.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
+        "Brand": "Home Center, UAE"
       }
     },
     {
       "id": "metal-wall-art-001-leaves-birds",
       "title": "Leaves Birds Metal Wall Art",
       "category": "Decor",
-      "price": 0,
+      "price": 4000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved leaves birds metal wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved leaves birds metal wall art available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/metal-wall-art-001-leaves-birds-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
+        "Material": "Metal"
       }
     },
     {
       "id": "mirror-set-001-gold-moroccan",
       "title": "Gold Moroccan Mirror Set",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -261,15 +252,14 @@
         "images/decor/mirror-set-001-gold-moroccan-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
+        "Brand": "Home Center, UAE."
       }
     },
     {
       "id": "vase-set-001-red-white-glass",
       "title": "Red White Glass Vase Set",
       "category": "Decor",
-      "price": 0,
+      "price": 10000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -278,66 +268,58 @@
         "images/decor/vase-set-001-red-white-glass-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
+        "Brand": "Pan Emirates, UAE"
       }
     },
     {
       "id": "vase-set-002-blue-red-glass",
       "title": "Blue Red Glass Vase Set",
       "category": "Decor",
-      "price": 0,
+      "price": 4000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved blue red glass vase set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved blue red glass vase set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/vase-set-002-blue-red-glass-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
+        "Brand": "Pan Emirates, UAE"
       }
     },
     {
       "id": "wall-art-003-traditional-decor",
       "title": "Traditional Decor Wall Art",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved traditional decor wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved traditional decor wall art available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/wall-art-003-traditional-decor-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "wall-art-004-floral-triptych",
       "title": "Floral Triptych Wall Art",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved floral triptych wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved floral triptych wall art available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/wall-art-004-floral-triptych-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "wall-art-005-vase-canvas",
       "title": "Vase Canvas Wall Art",
       "category": "Decor",
-      "price": 0,
+      "price": 6000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -345,20 +327,17 @@
       "images": [
         "images/decor/wall-art-005-vase-canvas-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "wall-art-006-traditional-doorway",
-      "title": "Traditional Doorway Wall Art",
+      "title": "Traditional Wall Art",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved traditional doorway wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved traditional wall art available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/wall-art-006-traditional-doorway-01.webp"
       ],
@@ -369,60 +348,51 @@
     },
     {
       "id": "wall-art-set-001-clock-calligraphy",
-      "title": "Clock Calligraphy Wall Art Set",
+      "title": "Calligraphy Wall Art Set",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved clock calligraphy wall art set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved calligraphy wall art set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/wall-art-set-001-clock-calligraphy-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "wall-art-set-002-framed-calligraphy",
       "title": "Framed Calligraphy Wall Art Set",
       "category": "Decor",
-      "price": 0,
+      "price": 2000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved framed calligraphy wall art set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved framed calligraphy wall art set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/wall-art-set-002-framed-calligraphy-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "wall-mirror-001-white-frame",
-      "title": "White Frame Wall Mirror",
+      "title": "Silver Frame Wall Mirror",
       "category": "Decor",
-      "price": 0,
+      "price": 10000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved white frame wall mirror available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved silver frame wall mirror available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/wall-mirror-001-white-frame-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Size": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "bed-set-001-white-silver",
       "title": "White Silver Bed Set",
       "category": "Furniture",
-      "price": 0,
+      "price": 150000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -433,46 +403,43 @@
         "images/furniture/bed-set-001-white-silver-03.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
       "id": "bed-set-002-black-headboard",
-      "title": "Black Headboard Bed Set",
+      "title": "Black Headboard Bed Set with Storage with Side Tables",
       "category": "Furniture",
-      "price": 0,
+      "price": 100000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved black headboard bed set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved black headboard bed set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/furniture/bed-set-002-black-headboard-01.webp",
         "images/furniture/bed-set-002-black-headboard-02.webp",
         "images/furniture/bed-set-002-black-headboard-03.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
+        "Brand": "Pan Emirates, Dubai"
       }
     },
     {
       "id": "center-table-001-round-gold-glass",
-      "title": "Round Gold Glass Center Table",
+      "title": "Round Gold Mirror Center Table with Two Side Tables",
       "category": "Furniture",
-      "price": 0,
+      "price": 150000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved round gold glass center table available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved round gold mirror center table available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/furniture/center-table-001-round-gold-glass-01.webp",
         "images/furniture/center-table-001-round-gold-glass-02.webp",
         "images/furniture/center-table-001-round-gold-glass-03.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
@@ -497,11 +464,11 @@
       "id": "dining-table-001-glass-beige-chairs",
       "title": "Glass Beige Chairs Dining Table",
       "category": "Furniture",
-      "price": 0,
+      "price": 50000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved glass beige chairs dining table available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved glass beige chairs dining table available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/furniture/dining-table-001-glass-beige-chairs-01.webp",
         "images/furniture/dining-table-001-glass-beige-chairs-02.webp",
@@ -511,44 +478,35 @@
         "images/furniture/dining-table-001-glass-beige-chairs-06.webp",
         "images/furniture/dining-table-001-glass-beige-chairs-07.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "islamic-wall-art-001-allah-names",
       "title": "Allah Names Islamic Wall Art",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved allah names islamic wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved allah names islamic wall art available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/islamic-wall-art-001-allah-names-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "islamic-wall-art-002-allah-rasool-muhammad",
       "title": "Allah Rasool Muhammad Islamic Wall Art",
       "category": "Decor",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved allah rasool muhammad islamic wall art available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved allah rasool muhammad islamic wall art available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/decor/islamic-wall-art-002-allah-rasool-muhammad-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "pouffe-set-001-beige-gold",
@@ -570,21 +528,18 @@
     },
     {
       "id": "recliner-chair-001-brown-leather",
-      "title": "Brown Leather Recliner Chair",
+      "title": "Maroon Leather Recliner Chair",
       "category": "Furniture",
-      "price": 0,
+      "price": 30000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved brown leather recliner chair available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved maroon leather recliner chair available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/furniture/recliner-chair-001-brown-leather-01.webp",
         "images/furniture/recliner-chair-001-brown-leather-02.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "side-table-001-gold-glass-lamp",
@@ -608,9 +563,9 @@
     },
     {
       "id": "sofa-003-beige-tufted",
-      "title": "Beige Tufted Sofa",
+      "title": "Beige Tufted Sofa Set with Daybed and Two Gold Pouffe Set",
       "category": "Furniture",
-      "price": 0,
+      "price": 150000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -619,54 +574,49 @@
         "images/furniture/sofa-003-beige-tufted-01.webp",
         "images/furniture/sofa-003-beige-tufted-02.webp",
         "images/furniture/sofa-003-beige-tufted-03.webp",
-        "images/furniture/sofa-003-beige-tufted-04.webp"
+        "images/furniture/sofa-003-beige-tufted-04.webp",
+        "images/furniture/daybed-001-beige-tufted-01.webp",
+        "images/furniture/daybed-001-beige-tufted-02.webp",
+        "images/furniture/pouffe-set-001-beige-gold-01.webp",
+        "images/furniture/pouffe-set-001-beige-gold-02.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "sofa-chair-002-blue-round",
       "title": "Blue Round Sofa Chair",
       "category": "Furniture",
-      "price": 0,
+      "price": 40000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved blue round sofa chair available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved blue round sofa chair available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/furniture/sofa-chair-002-blue-round-01.webp",
         "images/furniture/sofa-chair-002-blue-round-02.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "sofa-chair-set-001-beige-round",
       "title": "Beige Round Sofa Chair Set",
       "category": "Furniture",
-      "price": 0,
+      "price": 80000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved beige round sofa chair set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved beige round sofa chair set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/furniture/sofa-chair-set-001-beige-round-01.webp",
         "images/furniture/sofa-chair-set-001-beige-round-02.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "sofa-set-004-black-leather",
       "title": "Black Leather Sofa Set",
       "category": "Furniture",
-      "price": 0,
+      "price": 150000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -675,33 +625,29 @@
         "images/furniture/sofa-set-004-black-leather-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
       "id": "wardrobe-001-white-kids-stickers",
-      "title": "White Kids Stickers Wardrobe",
+      "title": "White Kids Wardrobe",
       "category": "Furniture",
-      "price": 0,
+      "price": 20000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved white kids stickers wardrobe available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved white kids stickers wardrobe available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/furniture/wardrobe-001-white-kids-stickers-01.webp",
         "images/furniture/wardrobe-001-white-kids-stickers-02.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Color": "See photos"
-      }
+      "specs": {}
     },
     {
       "id": "bowl-spoon-set-001-white-gold",
       "title": "White Gold Bowl Spoon Set",
       "category": "Kitchen",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -709,16 +655,13 @@
       "images": [
         "images/kitchen/bowl-spoon-set-001-white-gold-01.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Set Includes": "As shown in photos"
-      }
+      "specs": {}
     },
     {
       "id": "casserole-warmer-001-black-gold",
       "title": "Black Gold Casserole Warmer",
       "category": "Kitchen",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
@@ -727,133 +670,123 @@
         "images/kitchen/casserole-warmer-001-black-gold-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Set Includes": "As shown in photos"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
       "id": "chafing-dish-002-prime-round-white",
       "title": "Prime Round White Chafing Dish",
       "category": "Kitchen",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved prime round white chafing dish available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved prime round white chafing dish available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/kitchen/chafing-dish-002-prime-round-white-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Set Includes": "As shown in photos"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
       "id": "dinner-set-001-white-gold",
       "title": "White Gold Dinner Set",
       "category": "Kitchen",
-      "price": 0,
+      "price": 50000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved white gold dinner set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved white gold dinner set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.\n\nTotal pieces: 50",
       "images": [
         "images/kitchen/dinner-set-001-white-gold-01.webp",
         "images/kitchen/dinner-set-001-white-gold-02.webp",
         "images/kitchen/dinner-set-001-white-gold-03.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Set Includes": "As shown in photos"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
       "id": "food-warmer-001-rectangular-glass",
       "title": "Rectangular Glass Food Warmer",
       "category": "Kitchen",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved rectangular glass food warmer available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved rectangular glass food warmer available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/kitchen/food-warmer-001-rectangular-glass-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Set Includes": "As shown in photos"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
       "id": "glass-bowl-set-001-clear-serving",
       "title": "Clear Serving Glass Bowl Set",
       "category": "Kitchen",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved clear serving glass bowl set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved clear serving glass bowl set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/kitchen/glass-bowl-set-001-clear-serving-01.webp",
         "images/kitchen/glass-bowl-set-001-clear-serving-02.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Set Includes": "As shown in photos"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
       "id": "kitchen-storage-set-001-glass-biscuit-bowls",
-      "title": "Glass Biscuit Bowls Kitchen Storage Set",
+      "title": "Tea Time Biscuit,",
       "category": "Kitchen",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved glass biscuit bowls kitchen storage set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved glass biscuit bowls kitchen storage set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-01.webp",
         "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-02.webp"
       ],
-      "specs": {
-        "Material": "See photos",
-        "Set Includes": "As shown in photos"
-      }
+      "specs": {}
     },
     {
       "id": "serving-dish-set-001-white-gold",
       "title": "White Gold Serving Dish Set",
       "category": "Kitchen",
-      "price": 0,
+      "price": 15000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved white gold serving dish set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved white gold serving dish set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/kitchen/serving-dish-set-001-white-gold-01.webp",
         "images/kitchen/serving-dish-set-001-white-gold-02.webp",
         "images/kitchen/serving-dish-set-001-white-gold-03.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Set Includes": "As shown in photos"
+        "Brand": "Home Center, Dubai"
       }
     },
     {
       "id": "tea-cup-set-001-white-brown",
-      "title": "White Brown Tea Cup Set",
+      "title": "White Rose Gold Coffee Set",
       "category": "Kitchen",
-      "price": 0,
+      "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved white brown tea cup set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Pre-loved white rose coffee set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
         "images/kitchen/tea-cup-set-001-white-brown-01.webp"
       ],
       "specs": {
-        "Material": "See photos",
-        "Set Includes": "As shown in photos"
+        "Brand": "Home Center, Dubai"
       }
     }
   ]
