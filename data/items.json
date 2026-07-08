@@ -836,34 +836,6 @@
         "images/furniture/wardrobe-001-white-mirror-03.webp"
       ],
       "specs": {}
-    },
-    {
-      "id": "samsung-4k-65-tv",
-      "title": "Samsung 4K 65\" TV",
-      "category": "Furniture",
-      "price": 75000,
-      "status": "Available",
-      "featured": false,
-      "condition": "Excellent",
-      "description": "",
-      "images": [
-        "images/electronics/S500934069_1.webp"
-      ],
-      "specs": {}
-    },
-    {
-      "id": "dfgg6dfhg-dfg-sdf",
-      "title": "dfgg6dfhg-dfg-sdf",
-      "category": "Other",
-      "price": 5000,
-      "status": "Available",
-      "featured": false,
-      "condition": "Good, see photos for details",
-      "description": "",
-      "images": [
-        "images/kitchen/serving-dish-set-001-white-gold-01.webp"
-      ],
-      "specs": {}
     }
   ]
 }
