@@ -12,7 +12,7 @@
       "category": "Appliances",
       "price": 300000,
       "status": "Available",
-      "featured": false,
+      "featured": true,
       "condition": "Good — see photos for details",
       "description": "Pre-loved hitachi black side by side refrigerator available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
@@ -396,7 +396,7 @@
       "category": "Furniture",
       "price": 150000,
       "status": "Available",
-      "featured": false,
+      "featured": true,
       "condition": "Good — see photos for details",
       "description": "White and silver bedroom set with large bed frame, padded silver headboard, matching side tables with lamps, and matching dressing table with mirror and shelves. Includes coordinated white gloss furniture with black and silver detailing. Pre-owned condition, see photos for surface marks and usage details.",
       "images": [
@@ -456,7 +456,7 @@
       "category": "Furniture",
       "price": 50000,
       "status": "Available",
-      "featured": false,
+      "featured": true,
       "condition": "Good — see photos for details",
       "description": "Pre-loved glass beige chairs dining table available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
@@ -555,7 +555,7 @@
       "category": "Furniture",
       "price": 80000,
       "status": "Available",
-      "featured": false,
+      "featured": true,
       "condition": "Good — see photos for details",
       "description": "Pre-loved beige round sofa chair set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
@@ -570,7 +570,7 @@
       "category": "Furniture",
       "price": 150000,
       "status": "Available",
-      "featured": false,
+      "featured": true,
       "condition": "Good — see photos for details",
       "description": "Pre-loved black leather sofa set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
@@ -755,23 +755,6 @@
         "images/decor/plant-stand-set-001-black-mosaic-02-compressed.webp"
       ],
       "specs": {}
-    },
-    {
-      "id": "dressing-table",
-      "title": "White Dressing Table with Mirror and Shelves",
-      "category": "Furniture",
-      "price": 50000,
-      "status": "Available",
-      "featured": true,
-      "condition": "",
-      "description": "White dressing table with large mirror, black glass shelves, and multiple storage drawers. Includes a glossy tabletop and side display shelves, suitable for bedroom storage, makeup, and daily grooming use.",
-      "images": [
-        "images/furniture/dressing-table-001-white-mirror-01.webp",
-        "images/furniture/dressing-table-001-white-mirror-02.webp"
-      ],
-      "specs": {
-        "Brand": "Home Center, Dubai"
-      }
     },
     {
       "id": "gold-crystal-table-lamp",
