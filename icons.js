@@ -180,6 +180,9 @@ const CONDITION_OPTIONS = [
 
 const DEFAULT_CONDITION = "Good, see photos for details";
 
+/** Full homepage filter chip list (always show all canonical categories). */
+const HOMEPAGE_CATEGORY_FILTERS = ["All", ...PRODUCT_CATEGORIES];
+
 /**
  * Build homepage/admin category list: "All" plus categories that have at least one product,
  * in canonical order, then any unknown categories alphabetically.
@@ -243,38 +246,21 @@ function fillConditionSelect(selectEl, value) {
   if (!val) selectEl.value = DEFAULT_CONDITION;
 }
 
-/** Populate product category &lt;select&gt; with explicit option values. */
-function populateCategorySelect(selectEl, selectedValue) {
+/** Set modal category select value without rebuilding options (options are static in admin.html). */
+function setFormCategorySelect(selectEl, value) {
   if (!selectEl) return;
-  const val = String(selectedValue || "").trim();
-  const options = PRODUCT_CATEGORIES.slice();
-  if (val && !options.includes(val)) options.unshift(val);
-  const selected = val || "Furniture";
-  selectEl.innerHTML = options
-    .map(
-      (cat) =>
-        '<option value="' +
-        escapeHtmlAttr(cat) +
-        '"' +
-        (cat === selected ? " selected" : "") +
-        ">" +
-        escapeHtml(cat) +
-        "</option>"
-    )
-    .join("");
-  selectEl.value = selected;
-}
-
-/** Read the modal category &lt;select&gt; from the currently selected option. */
-function readFormCategory() {
-  const sel = document.getElementById("f_category");
-  if (!sel) return "";
-  const val = String(sel.value || "").trim();
-  if (val) return val;
-  const idx = sel.selectedIndex;
-  if (idx < 0 || !sel.options[idx]) return "";
-  const opt = sel.options[idx];
-  return String(opt.value || opt.textContent || "").trim();
+  const val = String(value || "").trim();
+  const target = val || "Furniture";
+  if (!PRODUCT_CATEGORIES.includes(target)) {
+    const hasOption = Array.from(selectEl.options).some((o) => o.value === target);
+    if (!hasOption) {
+      const opt = document.createElement("option");
+      opt.value = target;
+      opt.textContent = target;
+      selectEl.appendChild(opt);
+    }
+  }
+  selectEl.value = target;
 }
 
 function escapeHtml(str) {

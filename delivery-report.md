@@ -2,6 +2,90 @@
 
 ---
 
+## Phase 15 — Fix Add New Product category save (root cause) + data corrections + full filter chips
+
+### 1. Prompt phase name
+Phase 15 — Fix Add New Product category always saving as Furniture (root-cause fix), correct miscategorized products, show full homepage filter list.
+
+### 2. Date/time completed
+2026-07-08, ~23:00 (UTC+4, Karachi).
+
+### 3. Files created
+- None.
+
+### 4. Files modified
+- `admin.js` — removed `getFormCategoryValue()`, `formCategorySelection`, and cached-category fallback; `onSave()` now reads live `#f_category.value` directly; `fillForm()` uses `setFormCategorySelect()` (sets value only, no innerHTML rebuild).
+- `admin.html` — restored static `<option value="...">` entries for all 7 canonical categories on `#f_category`.
+- `icons.js` — replaced `populateCategorySelect()` with `setFormCategorySelect()`; added `HOMEPAGE_CATEGORY_FILTERS`.
+- `script.js` — homepage chips use `HOMEPAGE_CATEGORY_FILTERS` (always shows all categories).
+- `data/items.json` — corrected miscategorized products (see below).
+- `delivery-report.md` — this entry.
+
+### 5. Root cause found
+The save handler did **not** reliably read the live dropdown value. Instead it used `getFormCategoryValue()` with this fallback chain:
+
+```javascript
+form.elements.productCategory → readFormCategory() → formCategorySelection → ""
+```
+
+`formCategorySelection` was initialized to **`"Furniture"`** and only updated on `change` events. When the live select read returned empty (common with a dynamically rebuilt empty `<select>` before options loaded, or after `populateCategorySelect()` replaced innerHTML), save **silently fell back to `"Furniture"`**.
+
+Edit appeared to work because `fillForm()` passed the existing item category into `populateCategorySelect()`, which explicitly set the selected option from saved data — the fallback matched what was already on screen.
+
+### 6. Exact code path fixed
+**Before (broken add flow):**
+`onSave()` → `getFormCategoryValue()` → empty live read → `formCategorySelection` ("Furniture") → `record.category = "Furniture"`
+
+**After (fixed):**
+`onSave()` → `document.getElementById("f_category").value` → validate against `PRODUCT_CATEGORIES` → `record.category = categoryValue` (no Furniture fallback on save)
+
+**Supporting changes:**
+- Static options in `admin.html` so the select always has valid values before any JS runs.
+- `setFormCategorySelect()` only sets `.value` when opening the modal — never rebuilds options after the user selects a category.
+- Removed `formCategorySelection` cache entirely.
+
+### 7. Samsung / data category corrections
+| Product ID | Was | Now |
+|---|---|---|
+| `samsung-4k-65-tv` | Furniture | **Electronics** |
+| `plant-stand` | Furniture | **Decor** |
+| `gold-crystal-table-lamp` | Furniture | **Decor** |
+| `kids-study-desk` | Kids | Kids (already correct) |
+| `kids-single-bed` | Kids | Kids (already correct) |
+| `electric-treadmill` | Other | Other (already correct) |
+
+### 8. Add-product category test results
+Local server: `python -m http.server 8765`
+
+| Test product | Category selected | Saved category | Result |
+|---|---|---|---|
+| Test Electronics Product | Electronics | Electronics | ✓ |
+| Test Kids Product | Kids | Kids | ✓ |
+| Test Other Product | Other | Other | ✓ |
+
+Samsung loaded from `data/items.json` after reset: **Electronics** ✓
+
+### 9. Public filter test results
+`http://localhost:8765/index.html`
+
+- Filter chips always show: **All, Appliances, Decor, Electronics, Furniture, Kids, Kitchen, Other** ✓
+- **Electronics** filter → 1 item: Samsung 4K 65" TV ✓
+- Kids / Other / Decor filters work with corrected JSON categories ✓
+- Search, sort, modal lock, condition dropdown, auto ID — unchanged ✓
+- No JavaScript console errors observed ✓
+
+### 10. Confirmation
+**New product category now saves correctly on first creation.** Furniture is saved only when the dropdown value is actually `"Furniture"`. Invalid or empty category shows a validation error — no silent fallback.
+
+### 11. Remaining issues
+- Browser `localStorage` draft may still contain test products from QA — click **Reset changes** in admin before export.
+- Export and replace `data/items.json` after any admin edits to persist category fixes to the repo file.
+
+### 12. Next recommended step
+Hard-refresh admin (`Ctrl+F5`), click **Reset changes**, add a real product with a non-Furniture category, confirm in table + export JSON, then publish.
+
+---
+
 ## Phase 14 — Fix Add New Product category always saving as Furniture
 
 ### 1. Prompt phase name

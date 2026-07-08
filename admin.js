@@ -28,7 +28,6 @@ let meta = {
 let items = [];        // working copy (source of truth in the page)
 let original = [];     // last loaded/imported snapshot (for reset)
 let editingId = null;  // id being edited, or null when adding
-let formCategorySelection = "Furniture"; // tracks modal category between fillForm and save
 
 const el = (id) => document.getElementById(id);
 const ui = {
@@ -447,25 +446,12 @@ function populateCategoryFilter() {
 }
 
 /* ---------- Modal add/edit ---------- */
-function getFormCategoryValue() {
-  const field = ui.form && ui.form.elements.namedItem("productCategory");
-  if (field) {
-    const val = String(field.value || "").trim();
-    if (val) return val;
-  }
-  return readFormCategory() || formCategorySelection || "";
-}
-
 function bindModal() {
   el("modalClose").addEventListener("click", closeModal);
   el("modalCancel").addEventListener("click", closeModal);
   el("addImageBtn").addEventListener("click", () => addImageRow(""));
   el("addSpecBtn").addEventListener("click", () => addSpecRow("", ""));
   ui.form.addEventListener("submit", onSave);
-
-  el("f_category").addEventListener("change", () => {
-    formCategorySelection = getFormCategoryValue() || formCategorySelection;
-  });
 
   el("f_title").addEventListener("input", () => {
     if (editingId !== null) return;
@@ -515,8 +501,7 @@ function fillForm(item) {
   const isNew = editingId === null;
   el("f_id").value = item.id || (isNew ? uniqueProductId(item.title, items, null) : "");
   el("f_title").value = item.title || "";
-  populateCategorySelect(el("f_category"), item.category || "Furniture");
-  formCategorySelection = getFormCategoryValue() || item.category || "Furniture";
+  setFormCategorySelect(el("f_category"), item.category || "Furniture");
   el("f_price").value = item.price ?? "";
   el("f_status").value = item.status || "Available";
   el("f_featured").checked = !!item.featured;
@@ -699,7 +684,8 @@ function onSave(e) {
   e.preventDefault();
   const id = el("f_id").value.trim();
   const title = el("f_title").value.trim();
-  const category = getFormCategoryValue();
+  const categorySelect = document.getElementById("f_category");
+  const category = categorySelect ? String(categorySelect.value || "").trim() : "";
   const priceRaw = el("f_price").value;
   const status = el("f_status").value;
 

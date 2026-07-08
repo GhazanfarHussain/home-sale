@@ -58,7 +58,7 @@ async function init() {
 }
 
 function buildFilters() {
-  const cats = categoriesWithProducts(state.items);
+  const cats = HOMEPAGE_CATEGORY_FILTERS;
   els.filters.innerHTML = cats
     .map(
       (c) =>
