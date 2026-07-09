@@ -3,7 +3,7 @@
     "currency": "Rs.",
     "whatsapp": "923332466776",
     "pickupNote": "Pickup from Clifton, Karachi. Exact location shared after confirmation.",
-    "updated": "2026-07-08"
+    "updated": "2026-07-09"
   },
   "items": [
     {
@@ -35,6 +35,7 @@
       "condition": "Good — see photos for details",
       "description": "Pre-loved green artificial plant available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
       "images": [
+        "images/decor/artificial-plant-000-green-lighted-pot-01.webp",
         "images/decor/artificial-plant-001-green-lighted-pot-01.webp",
         "images/decor/artificial-plant-001-green-lighted-pot-02.webp"
       ],
@@ -504,13 +505,13 @@
     },
     {
       "id": "recliner-chair-001-brown-leather",
-      "title": "Maroon Leather Recliner Chair",
+      "title": "Maroon Leather Recliner Sofa Chair",
       "category": "Furniture",
       "price": 30000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved maroon leather recliner chair available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Maroon leather recliner sofa chair with padded armrests, cushioned back support, and a comfortable single-seat design. Suitable for living room, bedroom, lounge corner, or reading area. Pre-owned condition, see photos for leather surface, stitching, recliner finish, and usage details.",
       "images": [
         "images/furniture/recliner-chair-001-brown-leather-01.webp",
         "images/furniture/recliner-chair-001-brown-leather-02.webp"
@@ -599,17 +600,20 @@
     },
     {
       "id": "bowl-spoon-set-001-white-gold",
-      "title": "White Gold Bowl Spoon Set",
+      "title": "Set of Soup Bowls with Spoons",
       "category": "Kitchen",
       "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved white gold bowl spoon set available for pickup in Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Soup bowl set with matching spoons, featuring a white and gold design suitable for serving soup, starters, desserts, or small portions during family meals and gatherings. Elegant tableware piece for kitchen or dining use. Pre-owned condition, see photos for surface finish and usage details.",
       "images": [
         "images/kitchen/bowl-spoon-set-001-white-gold-01.webp"
       ],
-      "specs": {}
+      "specs": {
+        "Color": "White & Gold",
+        "Brand": "Home Center, Dubai"
+      }
     },
     {
       "id": "casserole-warmer-001-black-gold",
@@ -696,18 +700,20 @@
     },
     {
       "id": "kitchen-storage-set-001-glass-biscuit-bowls",
-      "title": "Tea Time Biscuit,",
+      "title": "Glass Cake Stand, Biscuit Jar and Snack Serving Set",
       "category": "Kitchen",
       "price": 5000,
       "status": "Available",
       "featured": false,
       "condition": "Good — see photos for details",
-      "description": "Pre-loved glass biscuit bowls kitchen storage set available for pickup in Clifton, Karachi. Message on WhatsApp to inquire or reserve.",
+      "description": "Three-piece tea time and snacks serving set including a glass cake stand, biscuit jar, and red-and-black snack serving dish. Suitable for serving cakes, biscuits, cookies, snacks, dry fruit, sweets, or tea-time refreshments during family meals and gatherings. Pre-owned condition, see photos for surface finish and usage details.",
       "images": [
         "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-01.webp",
         "images/kitchen/kitchen-storage-set-001-glass-biscuit-bowls-02.webp"
       ],
-      "specs": {}
+      "specs": {
+        "Brand": "Home Center, Dubai"
+      }
     },
     {
       "id": "serving-dish-set-001-white-gold",
