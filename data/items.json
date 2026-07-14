@@ -3,7 +3,7 @@
     "currency": "Rs.",
     "whatsapp": "923332466776",
     "pickupNote": "Pickup from Clifton, Karachi. Exact location shared after confirmation.",
-    "updated": "2026-07-10"
+    "updated": "2026-07-14"
   },
   "items": [
     {
@@ -871,6 +871,86 @@
       "images": [
         "images/decor/lantern-set-001-black-gold-candle-01-compressed.webp",
         "images/decor/lantern-set-001-black-gold-candle-02-compressed.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "gold-double-floral-candle-holder",
+      "title": "Gold Double Floral Candle Holder",
+      "category": "Decor",
+      "price": 3000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Gold decorative double candle holder with a curved metal base, two raised candle cups, and textured floral-style gold accents. Suitable for console tables, side tables, dining room decor, living room styling, or elegant candle-style display. Pre-owned condition, see photos for metal finish, decorative details, candle holders, and usage condition.",
+      "images": [
+        "images/decor/candle-holder-004-gold-double-floral-01.webp",
+        "images/decor/candle-holder-004-gold-double-floral-02.webp",
+        "images/decor/candle-holder-004-gold-double-floral-03.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "mosaic-glass-table-lamp",
+      "title": "Mosaic Glass Table Lamp",
+      "category": "Decor",
+      "price": 5000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Decorative mosaic glass table lamp with a patterned glass shade, warm light effect, and bronze-tone metal base. Suitable for bedside tables, side tables, console display, living room corners, or soft ambient lighting. Pre-owned condition, see photos for glass pattern, base finish, light effect, cable, and usage condition.",
+      "images": [
+        "images/decor/table-lamp-001-mosaic-glass-01.webp",
+        "images/decor/table-lamp-001-mosaic-glass-02.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "black-multi-light-floor-lamp",
+      "title": "Black Multi-Light Floor Lamp",
+      "category": "Decor",
+      "price": 20000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Black floor lamp with a tall standing base, upward bowl-style main light, side reading light, and decorative wrapped branch-style detailing with colorful accents. Suitable for living room corners, bedroom lighting, study area, or lounge decor. Pre-owned condition, see photos for lamp shades, wiring, base, decorative details, and usage condition.",
+      "images": [
+        "images/decor/floor-lamp-001-black-multi-light-01.webp",
+        "images/decor/floor-lamp-001-black-multi-light-02.webp",
+        "images/decor/floor-lamp-001-black-multi-light-03.webp"
+      ],
+      "specs": {
+        "Brand": "Ikea"
+      }
+    },
+    {
+      "id": "white-tv-unit-with-glass-storage",
+      "title": "White TV Unit with Glass Storage",
+      "category": "Furniture",
+      "price": 10000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "White TV unit with glass sliding doors, open center storage, side display shelves, and a wide top surface for television or media setup. Suitable for living room, lounge area, TV room, or storage for media devices and decor items. Pre-owned condition, see photos for glass panels, shelf details, surface marks, corners, and usage condition.",
+      "images": [
+        "images/furniture/tv-unit-001-white-glass-storage-01.webp",
+        "images/furniture/tv-unit-001-white-glass-storage-02.webp",
+        "images/furniture/tv-unit-001-white-glass-storage-03.webp",
+        "images/furniture/tv-unit-001-white-glass-storage-04.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "polar-bear-led-candle-holder",
+      "title": "Polar Bear LED Candle Holder",
+      "category": "Decor",
+      "price": 2500,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Decorative polar bear LED candle holder with a cream bear-shaped base and warm glowing pillar candle. Suitable for side tables, shelves, kids room decor, festive display, or soft ambient lighting. Pre-owned condition, see photos for bear base, candle light, surface finish, and usage condition.",
+      "images": [
+        "images/decor/candle-holder-005-polar-bear-led-01.webp"
       ],
       "specs": {}
     }
