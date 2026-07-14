@@ -953,6 +953,34 @@
         "images/decor/candle-holder-005-polar-bear-led-01.webp"
       ],
       "specs": {}
+    },
+    {
+      "id": "silver-grey-window-curtains-set",
+      "title": "Silver Grey Window Curtains Set",
+      "category": "Decor",
+      "price": 10000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Silver grey window curtains set with multiple eyelet panels, vertical stripe-style fabric design, and a soft light-reflective finish. Suitable for bedroom, living room, lounge area, or window coverage under an AC unit. Pre-owned condition, see photos for fabric texture, curtain length, eyelet rings, panel finish, and usage condition.",
+      "images": [
+        "images/decor/curtains-set-003-silver-grey-window-01.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "teal-velvet-window-curtains-set",
+      "title": "Teal Velvet Window Curtains Set",
+      "category": "Decor",
+      "price": 10000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Teal velvet-style window curtains set with multiple pleated panels and a rich soft fabric finish. Suitable for bedroom, living room, lounge area, or large window coverage. Pre-owned condition, see photos for fabric texture, curtain length, pleats, hanging style, and usage condition.",
+      "images": [
+        "images/decor/curtains-set-002-teal-velvet-window-01.webp"
+      ],
+      "specs": {}
     }
   ]
 }
