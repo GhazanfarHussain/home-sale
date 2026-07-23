@@ -3,7 +3,7 @@
     "currency": "Rs.",
     "whatsapp": "923332466776",
     "pickupNote": "Pickup from Clifton, Karachi. Exact location shared after confirmation.",
-    "updated": "2026-07-14"
+    "updated": "2026-07-23"
   },
   "items": [
     {
@@ -11,7 +11,7 @@
       "title": "Hitachi Black Side By Side Refrigerator",
       "category": "Appliances",
       "price": 300000,
-      "status": "Available",
+      "status": "Reserved",
       "featured": true,
       "condition": "Good — see photos for details",
       "description": "Hitachi black side-by-side refrigerator freezer with water dispenser and premium glossy finish. Model R-H76HPU, made in Thailand. Rated voltage 220-240V, 50Hz, weight 99kg, refrigerant R600a. Pre-owned condition, see photos for exterior finish and product label details. Warranty valid till 2031.",
@@ -981,6 +981,22 @@
         "images/decor/curtains-set-002-teal-velvet-window-01.webp"
       ],
       "specs": {}
+    },
+    {
+      "id": "kenwood-imperial-plus-2-ton-floor-standing-ac",
+      "title": "Kenwood Imperial Plus 2 Ton Floor Standing AC",
+      "category": "Appliances",
+      "price": 120000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Kenwood Imperial Plus 2 Ton floor-standing AC in good working condition. Model KEI-2441F with 24,000 BTU capacity and R410A refrigerant. Strong cooling and suitable for large rooms, lounges, offices, shops, or halls.\n\nComplete indoor and outdoor units included. Remote available. Buyer will arrange dismantling, pickup, and transport.",
+      "images": [
+        "images/appliances/AC.webp"
+      ],
+      "specs": {
+        "Brand": "Kenwood"
+      }
     }
   ]
 }
