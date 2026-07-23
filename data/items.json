@@ -997,6 +997,24 @@
       "specs": {
         "Brand": "Kenwood"
       }
+    },
+    {
+      "id": "samsung-65-inch-series-7-4k-smart-led-tv",
+      "title": "Samsung 65-Inch Series 7 4K Smart LED TV",
+      "category": "Electronics",
+      "price": 120000,
+      "status": "Sold",
+      "featured": true,
+      "condition": "Good, see photos for details",
+      "description": "Samsung 65-inch Series 7 4K Smart TV in good working condition. Large screen with sharp picture quality, built-in smart features, HDMI and USB connectivity.\n\nSuitable for a lounge, living room, office, or entertainment area. Original remote included. Buyers can inspect and test the TV before purchase.",
+      "images": [
+        "images/electronics/TV.webp"
+      ],
+      "specs": {
+        "Brand": "Samsung",
+        "Smart TV": "Yes",
+        "Resolution": "4K Ultra HD"
+      }
     }
   ]
 }
