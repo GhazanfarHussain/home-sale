@@ -3,7 +3,7 @@
     "currency": "Rs.",
     "whatsapp": "923332466776",
     "pickupNote": "Pickup from Clifton, Karachi. Exact location shared after confirmation.",
-    "updated": "2026-08-02"
+    "updated": "2026-08-04"
   },
   "items": [
     {
@@ -1015,6 +1015,48 @@
         "Smart TV": "Yes",
         "Resolution": "4K Ultra HD"
       }
+    },
+    {
+      "id": "maroon-patterned-runner-rug",
+      "title": "Maroon Patterned Runner Rug",
+      "category": "Decor",
+      "price": 10000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Maroon patterned runner rug with traditional border design and detailed multi-panel center pattern in beige, black, and gold tones. Suitable for hallway, bedroom side area, living room walkway, or entrance styling. Pre-owned condition, see photos for fabric texture, edges, pattern details, and usage condition.",
+      "images": [
+        "images/decor/rug-001-maroon-patterned-runner-01.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "blue-patterned-runner-rug-pair",
+      "title": "Blue Patterned Runner Rug Pair",
+      "category": "Decor",
+      "price": 20000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Pair of two blue patterned runner rugs with traditional border design, multi-panel center pattern, and fringe edges. Suitable for hallway, corridor, bedroom side area, entrance walkway, or living room passage styling. Pre-owned condition, see photos for fabric texture, edges, fringe, pattern details, and usage condition.\n\nRs. 10,000 each",
+      "images": [
+        "images/decor/runner-rug-set-002-blue-patterned-pair-01.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "white-tall-cd-and-book-storage-rack",
+      "title": "White Tall CD and Book Storage Rack",
+      "category": "Furniture",
+      "price": 15000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "White tall storage rack with multiple narrow shelves, suitable for CDs, DVDs, books, games, small boxes, and media accessories. Slim vertical design works well for room corners, study areas, TV rooms, or compact storage spaces. Pre-owned condition, see photos for shelf condition, surface marks, edges, and usage condition.",
+      "images": [
+        "images/furniture/cd-rack-001-white-tall-storage-01.webp"
+      ],
+      "specs": {}
     }
   ]
 }
