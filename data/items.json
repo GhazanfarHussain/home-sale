@@ -1057,6 +1057,23 @@
         "images/furniture/cd-rack-001-white-tall-storage-01.webp"
       ],
       "specs": {}
+    },
+    {
+      "id": "black-and-cream-living-room-rug",
+      "title": "Black and Cream Living Room Rug",
+      "category": "Decor",
+      "price": 15000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "Large black and cream living room rug with detailed floral pattern, decorative border, and fringe edges. Suitable for living room, lounge area, sitting area, or under a coffee table setup. Pre-owned condition, see photos for fabric texture, edges, fringe, pattern details, and usage condition.",
+      "images": [
+        "images/decor/rug-003-black-cream-living-room-01.webp",
+        "images/decor/rug-003-black-cream-living-room-03.webp",
+        "images/decor/rug-003-black-cream-living-room-02.webp",
+        "images/decor/rug-003-black-cream-living-room-04.webp"
+      ],
+      "specs": {}
     }
   ]
 }
