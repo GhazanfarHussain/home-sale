@@ -5,7 +5,7 @@
 
 const ADMIN_AUTH_SESSION_KEY = "homeSaleAdminAuthed";
 const ADMIN_CREDENTIAL_HASH =
-  "de77e808f2dc85551d3c359d8cf3a225bea0dcfde968031314b3b06334ea085a";
+  "a281205bbcb1fd0472c4bd04889ffc1401339594be365df909f3a9e906b5df28";
 
 (function initAdminAuth() {
   const body = document.body;
