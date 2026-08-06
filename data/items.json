@@ -1,7 +1,7 @@
 {
   "meta": {
     "currency": "Rs.",
-    "whatsapp": "923332466776",
+    "whatsapp": "923330360489",
     "pickupNote": "Pickup from Clifton, Karachi. Exact location shared after confirmation.",
     "updated": "2026-08-06"
   },
@@ -1072,37 +1072,6 @@
         "images/decor/rug-003-black-cream-living-room-03.webp",
         "images/decor/rug-003-black-cream-living-room-02.webp",
         "images/decor/rug-003-black-cream-living-room-04.webp"
-      ],
-      "specs": {}
-    },
-    {
-      "id": "samsung-silver-dishwasher",
-      "title": "Samsung Silver Dishwasher",
-      "category": "Appliances",
-      "price": 75000,
-      "status": "Available",
-      "featured": false,
-      "condition": "Good, see photos for details",
-      "description": "Samsung silver dishwasher with front control panel, built-in handle, and full-size freestanding design. Suitable for kitchen dishwashing use and family home setup. Pre-owned condition, see photos for front panel, control buttons, surface marks, lower edge, and usage condition.",
-      "images": [
-        "images/appliances/dishwasher-001-samsung-silver-01.webp",
-        "images/appliances/dishwasher-001-samsung-silver-02.webp"
-      ],
-      "specs": {
-        "Brand": "Samsung"
-      }
-    },
-    {
-      "id": "dark-brown-six-door-wardrobe",
-      "title": "Dark Brown Six-Door Wardrobe",
-      "category": "Furniture",
-      "price": 30000,
-      "status": "Available",
-      "featured": false,
-      "condition": "Good, see photos for details",
-      "description": "Large dark brown six-door wardrobe with textured wood-style finish and long silver handles. Offers spacious storage for clothes, bedding, household items, and personal belongings. Suitable for bedroom, guest room, or storage area. Pre-owned condition, see photos for door finish, handles, surface marks, edges, and usage condition.",
-      "images": [
-        "images/furniture/wardrobe-001-dark-brown-six-door-01.webp"
       ],
       "specs": {}
     }
