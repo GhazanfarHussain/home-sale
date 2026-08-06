@@ -106,7 +106,10 @@ function sortItems(list) {
     case "featured":
     default:
       arr.sort(
-        (a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || a._order - b._order
+        (a, b) =>
+          (b.featured ? 1 : 0) - (a.featured ? 1 : 0) ||
+          statusRank(a) - statusRank(b) ||
+          a._order - b._order
       );
       break;
   }

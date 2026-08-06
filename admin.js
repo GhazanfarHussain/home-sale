@@ -45,7 +45,11 @@ const ui = {
   specsEditor: el("specsEditor"),
 };
 
-init();
+if (document.body.classList.contains("admin-locked")) {
+  document.addEventListener("admin-auth-ready", init, { once: true });
+} else {
+  init();
+}
 
 async function init() {
   populateCategoryFilter();

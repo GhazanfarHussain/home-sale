@@ -15,12 +15,29 @@ const lb = {
   counter: document.getElementById("lbCounter"),
 };
 
+const buyBar = {
+  el: document.getElementById("buyBar"),
+  price: document.getElementById("buyBarPrice"),
+  offerBtn: document.getElementById("btnOffer"),
+  buyBtn: document.getElementById("btnBuy"),
+};
+const offerSheet = {
+  backdrop: document.getElementById("offerBackdrop"),
+  panel: document.getElementById("offerSheet"),
+  close: document.getElementById("offerClose"),
+  listedPrice: document.getElementById("offerListedPrice"),
+  input: document.getElementById("offerPriceInput"),
+  error: document.getElementById("offerError"),
+  send: document.getElementById("offerSend"),
+};
+
 let currency = "Rs.";
 let whatsapp = WA_FALLBACK;
 let pickupNote = DEFAULT_PICKUP;
 let allItems = [];
 let galleryImages = [];
 let currentIndex = 0;
+let currentItem = null;
 
 init();
 
@@ -46,6 +63,7 @@ async function init() {
   }
 
   setupLightbox();
+  setupOfferSheet();
 }
 
 function renderError(msg) {
@@ -60,6 +78,7 @@ function renderError(msg) {
 
 function renderProduct(item) {
   document.title = item.title + " - Home Sale";
+  currentItem = item;
   const status = (item.status || "Available").toLowerCase();
   const isSold = status === "sold";
   galleryImages = (item.images && item.images.length ? item.images : [PLACEHOLDER]).slice();
@@ -156,6 +175,88 @@ function renderProduct(item) {
 
   wireGallery();
   wireSimilar();
+  setupBuyBar(item, isSold);
+}
+
+/* ---------- Sticky buy bar + offer sheet ---------- */
+function setupBuyBar(item, isSold) {
+  if (!buyBar.el) return;
+
+  if (isSold) {
+    buyBar.el.classList.add("hidden");
+    document.body.classList.remove("has-buy-bar");
+    return;
+  }
+
+  buyBar.price.textContent = formatPriceDisplay(currency, item.price);
+  buyBar.buyBtn.href = buyHref(item);
+  buyBar.offerBtn.onclick = () => openOfferSheet(item);
+  buyBar.el.classList.remove("hidden");
+  document.body.classList.add("has-buy-bar");
+}
+
+function setupOfferSheet() {
+  offerSheet.close.addEventListener("click", closeOfferSheet);
+  offerSheet.backdrop.addEventListener("click", (e) => {
+    if (e.target === offerSheet.backdrop) closeOfferSheet();
+  });
+  offerSheet.send.addEventListener("click", sendOffer);
+  offerSheet.input.addEventListener("input", () => {
+    offerSheet.error.classList.add("hidden");
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && offerSheet.backdrop.classList.contains("open")) {
+      closeOfferSheet();
+    }
+  });
+}
+
+function openOfferSheet(item) {
+  offerSheet.listedPrice.textContent = formatPriceDisplay(currency, item.price);
+  offerSheet.input.value = "";
+  offerSheet.error.classList.add("hidden");
+  offerSheet.backdrop.classList.add("open");
+  document.body.style.overflow = "hidden";
+  setTimeout(() => offerSheet.input.focus(), 50);
+}
+
+function closeOfferSheet() {
+  offerSheet.backdrop.classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+function sendOffer() {
+  const item = currentItem;
+  if (!item) return;
+  const raw = offerSheet.input.value;
+  const offer = Number(raw);
+  if (raw === "" || !isFinite(offer) || offer <= 0) {
+    offerSheet.error.textContent = "Enter a valid offer amount.";
+    offerSheet.error.classList.remove("hidden");
+    offerSheet.input.focus();
+    return;
+  }
+  window.open(offerHref(item, offer), "_blank", "noopener");
+  closeOfferSheet();
+}
+
+function buyHref(item) {
+  const priceLabel = formatPriceDisplay(currency, item.price);
+  const msg =
+    `Hi, I want to buy "${item.title}" listed for ${priceLabel}.\n` +
+    `Product link: ${window.location.href}\n` +
+    `Please confirm it's still available.`;
+  return `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
+}
+
+function offerHref(item, offerAmount) {
+  const priceLabel = formatPriceDisplay(currency, item.price);
+  const offerLabel = formatPriceDisplay(currency, offerAmount);
+  const msg =
+    `Hi, I'd like to offer ${offerLabel} for "${item.title}" (listed at ${priceLabel}).\n` +
+    `Product link: ${window.location.href}\n` +
+    `Is that okay?`;
+  return `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
 }
 
 function similarSection(item) {

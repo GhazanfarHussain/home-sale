@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product - Home Sale</title>
   <meta name="description" content="Product details - Home Sale, Karachi, Pakistan." />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#D4AF37" />
+  <link rel="icon" href="images/icons/favicon.ico" sizes="any" />
+  <link rel="icon" href="images/icons/icon-192.png" type="image/png" />
+  <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Home Sale" />
+  <meta name="mobile-web-app-capable" content="yes" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -44,7 +53,45 @@
     <div class="lb-counter" id="lbCounter"></div>
   </div>
 
+  <!-- Sticky mobile buy bar -->
+  <div class="buy-bar hidden" id="buyBar">
+    <div class="buy-bar-inner">
+      <div class="buy-bar-price">
+        <span class="buy-bar-label">Price</span>
+        <strong id="buyBarPrice"></strong>
+      </div>
+      <div class="buy-bar-actions">
+        <button type="button" class="btn btn-outline btn-lg" id="btnOffer">Offer</button>
+        <a class="btn btn-whatsapp btn-lg" id="btnBuy" target="_blank" rel="noopener">Buy Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Offer bottom sheet -->
+  <div class="offer-sheet-backdrop" id="offerBackdrop">
+    <div class="offer-sheet" id="offerSheet" role="dialog" aria-modal="true" aria-labelledby="offerSheetTitle">
+      <div class="offer-sheet-head">
+        <h2 id="offerSheetTitle">Make an offer</h2>
+        <button type="button" class="link-btn" id="offerClose">Close <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      </div>
+      <p class="offer-sheet-hint">Listed at <strong id="offerListedPrice"></strong>. Enter the price you'd like to offer.</p>
+      <div class="field">
+        <label for="offerPriceInput">Your offer (Rs.)</label>
+        <input type="number" id="offerPriceInput" min="0" step="1" inputmode="numeric" placeholder="e.g. 40000" autocomplete="off" />
+      </div>
+      <p class="offer-sheet-error hidden" id="offerError">Enter a valid offer amount.</p>
+      <button type="button" class="btn btn-whatsapp btn-lg offer-send-btn" id="offerSend">Send Offer via WhatsApp</button>
+    </div>
+  </div>
+
   <script src="icons.js"></script>
   <script src="product.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("sw.js").catch(() => {});
+      });
+    }
+  </script>
 </body>
 </html>

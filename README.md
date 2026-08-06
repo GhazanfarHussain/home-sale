@@ -17,7 +17,7 @@ Designed to be hosted on **GitHub Pages**.
 App_home-sale/
 ├─ index.html          # public catalog homepage
 ├─ product.html        # reusable product profile page
-├─ admin.html          # local admin editor (no login, no server)
+├─ admin.html          # local admin editor (browser-only login gate, no server)
 ├─ styles.css          # shared styles
 ├─ script.js           # catalog logic
 ├─ product.js          # product page + lightbox
@@ -372,4 +372,27 @@ WhatsApp messages include the product title, price as **Rs. 12,000** (from `meta
 
 - Prices are shown in **Rs.** (Pakistani Rupee) by default, loaded from `meta.currency`.
 - Pickup is from **Karachi** — exact location shared after confirmation.
-- No login, no checkout. Google Fonts is the only external dependency (Playfair Display + Inter).
+- No checkout, no backend. Google Fonts is the only external dependency (Playfair Display + Inter).
+- `admin.html` is gated by a client-side sign-in (see [Admin login](#admin-login)) — this deters
+  casual visitors but is not real server-side security, since the whole site is static and public.
+
+## Admin login
+
+`admin.html` shows a sign-in screen before revealing any editor content. Credentials are checked in
+the browser (SHA-256 hash comparison) and the session is remembered via `sessionStorage` until the
+tab is closed.
+
+- Change the username/password by editing `ADMIN_CREDENTIAL_HASH` in `admin-auth.js`. Generate a new
+  hash for `username:password` (SHA-256, hex) and paste it in.
+- Because this is a public static site, the hash is visible in the repository. Treat this as a light
+  deterrent, not a secret vault — don't reuse an important password here.
+
+## Mobile app (PWA)
+
+The catalog (`index.html`, `product.html`) is an installable Progressive Web App:
+
+- `manifest.json` + icons in `images/icons/` let phones "Add to Home Screen" with an app icon and
+  standalone (no browser chrome) launch.
+- `sw.js` is a service worker that caches the app shell for fast loads and basic offline support.
+  `admin.html` is intentionally excluded from caching so edits always load fresh.
+- After changing static assets, bump `CACHE_NAME` in `sw.js` so returning visitors get the update.

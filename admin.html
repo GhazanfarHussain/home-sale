@@ -9,7 +9,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="admin-locked">
+  <div class="admin-login-screen" id="adminLoginScreen">
+    <form class="admin-login-box" id="adminLoginForm" autocomplete="off">
+      <span class="brand-mini admin-login-brand"><svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg> Home Sale Admin</span>
+      <h1 class="admin-login-title">Admin sign in</h1>
+      <p class="hint admin-login-hint">This area is restricted. Enter your admin credentials to continue.</p>
+      <div class="field">
+        <label for="admin_user">Username</label>
+        <input type="text" id="admin_user" autocomplete="username" required />
+      </div>
+      <div class="field">
+        <label for="admin_pass">Password</label>
+        <input type="password" id="admin_pass" autocomplete="current-password" required />
+      </div>
+      <p class="admin-login-error hidden" id="adminLoginError">Incorrect username or password.</p>
+      <button type="submit" class="btn btn-primary btn-lg admin-login-submit">Sign in</button>
+      <p class="hint admin-login-note">Static site notice: this check runs in your browser and is a deterrent, not real server-side security. Do not reuse a sensitive password here.</p>
+    </form>
+  </div>
+
+  <div id="adminApp">
   <div class="topbar">
     <div class="container topbar-inner">
       <span class="brand-mini"><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg> Home Sale Admin</span>
@@ -22,9 +42,9 @@
       <h1>Home Sale Admin</h1>
     </div>
     <div class="instruction-box">
-      <strong>How this works:</strong> This admin editor works locally. After editing, export
-      <code>items.json</code> and replace <code>data/items.json</code> in the project before publishing.
-      No login, no server, nothing is saved online.
+      <strong>How this works:</strong> This admin editor works locally, behind a browser-only sign-in.
+      After editing, export <code>items.json</code> and replace <code>data/items.json</code> in the
+      project before publishing. No server, nothing is saved online.
     </div>
 
     <div class="readiness-panel panel panel-compact" id="readinessPanel">
@@ -236,8 +256,10 @@
       </form>
     </div>
   </div>
+  </div>
 
   <script src="icons.js"></script>
+  <script src="admin-auth.js"></script>
   <script src="admin.js"></script>
 </body>
 </html>
