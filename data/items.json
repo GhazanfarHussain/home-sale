@@ -3,14 +3,14 @@
     "currency": "Rs.",
     "whatsapp": "923330360489",
     "pickupNote": "Pickup from Clifton, Karachi. Exact location shared after confirmation.",
-    "updated": "2026-08-06"
+    "updated": "2026-08-10"
   },
   "items": [
     {
       "id": "refrigerator-001-hitachi-black-side-by-side",
       "title": "Hitachi Black Side By Side Refrigerator",
       "category": "Appliances",
-      "price": 300000,
+      "price": 249000,
       "status": "Available",
       "featured": true,
       "condition": "Good — see photos for details",
@@ -397,21 +397,21 @@
     },
     {
       "id": "bed-set-001-white-silver",
-      "title": "White and Silver Bedroom Set with Dressing Table",
+      "title": "White and Silver Bedroom Set with Dressing Table & Wardrobe",
       "category": "Furniture",
-      "price": 200000,
+      "price": 199000,
       "status": "Available",
       "featured": true,
       "condition": "Good — see photos for details",
-      "description": "White and silver bedroom set with large bed frame, padded silver headboard, matching side tables with lamps, and matching dressing table with mirror and shelves. Includes coordinated white gloss furniture with black and silver detailing. Pre-owned condition, see photos for surface marks and usage details.",
+      "description": "King-size bed set with a clean white glossy and silver finish. Designed as a complete bedroom solution, it combines a padded king-size bed, coordinated side tables, dressing unit, mirror, storage drawers, display shelves, and a four-door wardrobe with mirrored center doors. A practical set for a master bedroom, guest bedroom, or anyone moving into a ready-to-use home setup. \n\n• Brand: Home Centre Dubai\n• Bed Size: King-size bed\n• Set Includes: King-size bed, two side tables, dressing table, mirror, display shelves, drawers, and four-door wardrobe\n• Headboard: Padded tufted headboard with button detailing\n• Wardrobe: Four-door wardrobe with two mirrored center doors and two side storage doors\n• Dressing Unit: Large mirror with drawer storage and side display shelves\n• Side Tables: Matching bedside tables with drawer storage\n• Storage: Wardrobe compartments, dressing table drawers, side table drawers, and display shelves\n• Finish: White and silver finish with dark accent detailing\n• Design: Modern coordinated bedroom set with matching pieces\n• Suitable For: Master bedroom, guest bedroom, or complete bedroom setup\n• Condition: Pre-owned condition, see photos for bed frame, headboard, side tables, dressing table, mirror, wardrobe doors, drawers, surface marks, edges, and overall usage condition\n• Pickup Location: Clifton, Karachi",
       "images": [
         "images/furniture/bed-set-001-white-silver-01.webp",
         "images/furniture/bed-set-001-white-silver-06.webp",
         "images/furniture/bed-set-001-white-silver-03.webp",
-        "images/furniture/bed-set-001-white-silver-05.webp",
         "images/furniture/bed-set-001-white-silver-04.webp",
         "images/furniture/dressing-table-001-white-mirror-01.webp",
-        "images/furniture/dressing-table-001-white-mirror-02.webp"
+        "images/furniture/wardrobe-001-white-mirror-01.webp",
+        "images/furniture/wardrobe-001-white-mirror-02.webp"
       ],
       "specs": {
         "Brand": "Home Center, Dubai"
@@ -508,7 +508,7 @@
       "title": "Maroon Leather Recliner Sofa Chair",
       "category": "Furniture",
       "price": 30000,
-      "status": "Available",
+      "status": "Reserved",
       "featured": false,
       "condition": "Good — see photos for details",
       "description": "Maroon leather recliner sofa chair with padded armrests, cushioned back support, and a comfortable single-seat design. Suitable for living room, bedroom, lounge corner, or reading area. Pre-owned condition, see photos for leather surface, stitching, recliner finish, and usage details.",
@@ -801,9 +801,9 @@
       "title": "Electric Treadmill",
       "category": "Other",
       "price": 20000,
-      "status": "Available",
+      "status": "Sold",
       "featured": false,
-      "condition": "",
+      "condition": "Good, see photos for details",
       "description": "Pre-owned electric treadmill with display console, side handrails, cup holders, and running belt. Suitable for home fitness and walking or light running workouts.",
       "images": [
         "images/other/treadmill-001-black-grey-electric-01.webp",
@@ -1072,6 +1072,50 @@
         "images/decor/rug-003-black-cream-living-room-03.webp",
         "images/decor/rug-003-black-cream-living-room-02.webp",
         "images/decor/rug-003-black-cream-living-room-04.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "samsung-silver-dishwasher",
+      "title": "Samsung Silver Dishwasher",
+      "category": "Appliances",
+      "price": 49000,
+      "status": "Available",
+      "featured": true,
+      "condition": "Good, see photos for details",
+      "description": "Samsung silver dishwasher with front control panel, built-in handle, and stainless-steel style finish. Suitable for kitchen use and daily dishwashing needs. Pre-owned condition, see photos for front panel, surface marks, lower edge condition, controls, and usage condition.",
+      "images": [
+        "images/appliances/dishwasher-001-samsung-silver-01.webp",
+        "images/appliances/dishwasher-001-samsung-silver-02.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "dark-brown-six-door-wardrobe",
+      "title": "Dark Brown Six-Door Wardrobe",
+      "category": "Furniture",
+      "price": 29000,
+      "status": "Available",
+      "featured": true,
+      "condition": "Good, see photos for details",
+      "description": "Dark brown six-door wardrobe with tall silver handles, textured wood-style finish, and spacious storage design. Suitable for bedroom storage, clothing, bedding, accessories, and household items. Pre-owned condition, see photos for door finish, handles, surface marks, edges, and usage condition.",
+      "images": [
+        "images/furniture/wardrobe-001-dark-brown-six-door-01.webp"
+      ],
+      "specs": {}
+    },
+    {
+      "id": "white-three-door-shoe-rack",
+      "title": "White Three-Door Shoe Rack",
+      "category": "Furniture",
+      "price": 10000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "White three-door shoe rack with tilt-out storage compartments and an open top shelf for additional items. Suitable for entryway, hallway, bedroom, or compact storage for shoes and small accessories. Pre-owned condition, see photos for door panels, handles, shelf space, surface marks, edges, and usage condition.",
+      "images": [
+        "images/furniture/shoe-rack-001-white-three-door-01.webp",
+        "images/furniture/shoe-rack-001-white-three-door-02.webp"
       ],
       "specs": {}
     }
