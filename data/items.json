@@ -439,7 +439,7 @@
       "id": "center-table-001-round-gold-glass",
       "title": "Round Gold Mirror Center Table with Two Side Tables",
       "category": "Furniture",
-      "price": 150000,
+      "price": 99000,
       "status": "Available",
       "featured": true,
       "condition": "Good — see photos for details",
@@ -571,7 +571,7 @@
       "id": "sofa-set-004-black-leather",
       "title": "Black Leather Sofa Set",
       "category": "Furniture",
-      "price": 150000,
+      "price": 100000,
       "status": "Available",
       "featured": true,
       "condition": "Good — see photos for details",
@@ -1101,21 +1101,6 @@
       "description": "Dark brown six-door wardrobe with tall silver handles, textured wood-style finish, and spacious storage design. Suitable for bedroom storage, clothing, bedding, accessories, and household items. Pre-owned condition, see photos for door finish, handles, surface marks, edges, and usage condition.",
       "images": [
         "images/furniture/wardrobe-001-dark-brown-six-door-01.webp"
-      ],
-      "specs": {}
-    },
-    {
-      "id": "white-three-door-shoe-rack",
-      "title": "White Three-Door Shoe Rack",
-      "category": "Furniture",
-      "price": 10000,
-      "status": "Available",
-      "featured": false,
-      "condition": "Good, see photos for details",
-      "description": "White three-door shoe rack with tilt-out storage compartments and an open top shelf for additional items. Suitable for entryway, hallway, bedroom, or compact storage for shoes and small accessories. Pre-owned condition, see photos for door panels, handles, shelf space, surface marks, edges, and usage condition.",
-      "images": [
-        "images/furniture/shoe-rack-001-white-three-door-01.webp",
-        "images/furniture/shoe-rack-001-white-three-door-02.webp"
       ],
       "specs": {}
     },
