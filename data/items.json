@@ -1118,6 +1118,23 @@
         "images/furniture/shoe-rack-001-white-three-door-02.webp"
       ],
       "specs": {}
+    },
+    {
+      "id": "ikea-white-three-door-shoe-cabinet",
+      "title": "IKEA White Three-Door Shoe Cabinet",
+      "category": "Furniture",
+      "price": 11000,
+      "status": "Available",
+      "featured": false,
+      "condition": "Good, see photos for details",
+      "description": "White shoe cabinet with three tilt-out storage compartments and an open top shelf. Compact vertical design suitable for entryway, hallway, bedroom, balcony area, or storage corner.\n\n• Brand: IKEA Dubai\n\n• Product Type: Shoe cabinet\n\n• Color: White\n\n• Design: Slim vertical storage cabinet\n\n• Storage: Three tilt-out shoe storage compartments\n\n• Top Shelf: Open shelf for small items or decor\n\n• Suitable For: Shoes, slippers, sandals, and daily footwear storage\n\n• Placement: Entryway, hallway, bedroom, or utility area\n\n• Condition: Pre-owned condition\n\n• Pickup Location: Clifton, Karachi",
+      "images": [
+        "images/furniture/shoe-cabinet-001-white-three-door-02.webp",
+        "images/furniture/shoe-cabinet-001-white-three-door-01.webp"
+      ],
+      "specs": {
+        "Brand": "IKEA - Dubai"
+      }
     }
   ]
 }
